@@ -19,8 +19,9 @@ def load(notebook, member):
     cells = json.loads(notebook.read_text(encoding="utf-8"))["cells"]
     protocol = next(c for c in cells if c.get("id") == "shared-protocol-draft")
     exec(compile("".join(protocol["source"]), "shared-protocol-draft", "exec"), ns)
+    prefixes = ("m1-", "m2-") if member == "m2" else (member + "-",)
     for cell in cells:
-        if cell.get("cell_type") != "code" or not cell.get("id", "").startswith(member + "-"):
+        if cell.get("cell_type") != "code" or not cell.get("id", "").startswith(prefixes):
             continue
         tree = ast.parse("".join(cell["source"]))
         tree.body = [node for node in tree.body if isinstance(node, (
