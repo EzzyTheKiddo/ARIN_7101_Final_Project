@@ -2,5 +2,5 @@ member,name,status,goal,section,handoff_to,evidence,next_action
 M1,,review,设计并实现生成器和独立真值核查,m1-*,M2/M4,outputs/development/m1_development_20261109; deliverables/M1_notes.md; M1 automated checks passed,等待M2输出策略审计后完成10题双签并请M4复核接口
 M2,,todo,实现四策略、回答器、成本与评价,m2-*,M3/M4,,自建历史实现策略和回答器
 M3,,todo,推导并实现TS/CTS和回放,m3-*,M4,,先手算与推导，再实现Selector
-M4,,todo,实现集成、冻结、统计与归档,m4-*,M5,,先设计统计手算案例，再编写调度
+M4,,doing,实现集成、冻结、统计与归档,m4-*,M5,deliverables/M4_notes.md; m4 fixture checks passed,请M3复核统计；验收M1/M2/M3并实现调度冻结归档
 M5,,todo,实现可视化、独立评估与汇报,m5-*,全组,,先选图表问题，用fixture研究绘图
