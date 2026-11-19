@@ -1,5 +1,5 @@
 # ARIN7101 · 小组研究任务工作本
-**[Release Notebook](ARIN7101_Context_Bandit_Release_Notebook.ipynb) 是任务脚手架，项目代码与结果评估由成员自行完成。** 研究函数均为待实现接口；第0节已完整实现环境检查、统一目录初始化与通用保存工具；M1–M5仍为研究骨架，不产生研究数据、统计或图，初始化不代表任务完成。
+**[Release Notebook](ARIN7101_Context_Bandit_Release_Notebook.ipynb) 是任务脚手架，项目代码与结果评估由成员自行完成。** 第0节提供环境检查、统一目录初始化与通用保存工具。M3开发回放和核查见[交接记录](deliverables/M3_notes.md)。
 
 目标：受控合成长对话中的贝叶斯上下文选择，研究正确性与输入成本取舍。无需真实LLM、外部数据或API密钥。
 
