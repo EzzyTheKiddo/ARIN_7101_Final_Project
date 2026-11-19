@@ -55,3 +55,11 @@ PowerShell激活：.\.venv\Scripts\Activate.ps1；macOS/Linux：source .venv/bin
 成员分支只改本人cell/说明；公共接口变化写team_workspace/interface_decisions.md并通知下游，M4顺序合并。Git提交源码和人工证据；完整run另行共享，登记commit/地址/校验和。
 
 [变更说明](docs/RELEASE_NOTES.md) · [本次验证范围](docs/VALIDATION.md)。研究实现、成员验收、正式结果和最终汇报均待小组完成。
+
+## M1–M3 接入自检（试用）
+
+运行 `python scripts/test_member_handoff.py --member all`，或指定 `m1`、`m2`、`m3`。说明与限制见 [接入自检手册](docs/MEMBER_SMOKE_TESTS.md)。通过仅代表小型接口检查，不代替研究验证和人工验收。
+
+## 研究方法调研
+
+见 [调研文档库](docs/research/README.md)，包括 TS/CTS 效果、成本与统计不确定性的数学测评方法。
