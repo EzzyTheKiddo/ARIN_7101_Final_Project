@@ -1,0 +1,96 @@
+{
+  "run_id": "m2_development_20261119",
+  "source": {
+    "generator": "M1",
+    "episodes": [
+      {
+        "scenario": "stable",
+        "seed": 130000,
+        "questions": 300
+      },
+      {
+        "scenario": "stable",
+        "seed": 130001,
+        "questions": 300
+      },
+      {
+        "scenario": "stable",
+        "seed": 130002,
+        "questions": 300
+      },
+      {
+        "scenario": "abrupt",
+        "seed": 130100,
+        "questions": 300
+      },
+      {
+        "scenario": "abrupt",
+        "seed": 130101,
+        "questions": 300
+      },
+      {
+        "scenario": "abrupt",
+        "seed": 130102,
+        "questions": 300
+      }
+    ]
+  },
+  "cost_config": {
+    "budgets": {
+      "recent_short": 128,
+      "recent_long": 512,
+      "tfidf": 256,
+      "resolved_tfidf": 256
+    },
+    "lambda": 0.5,
+    "cost_reference": 512
+  },
+  "arm_order": [
+    "recent_short",
+    "recent_long",
+    "tfidf",
+    "resolved_tfidf"
+  ],
+  "fixture_checks": [
+    {
+      "case": "手写答案/coverage/16行唯一键",
+      "result": "pass"
+    },
+    {
+      "case": "预算边界/整条打包/重复候选",
+      "result": "pass"
+    },
+    {
+      "case": "空历史/空词表/缺focus/预算和时序",
+      "result": "pass"
+    },
+    {
+      "case": "旧值/更新/同值复述/UNKNOWN/outdated评分",
+      "result": "pass"
+    },
+    {
+      "case": "未来隔离/隐藏标签隔离/输入未被修改",
+      "result": "pass"
+    },
+    {
+      "case": "focus锚点预算/正则计数/效用公式",
+      "result": "pass"
+    },
+    {
+      "case": "检索同分/8候选上限/非法公开输入",
+      "result": "pass"
+    }
+  ],
+  "development_checks": {
+    "unique_keys_four_arms_and_matching_metadata": "pass",
+    "cost_count_and_utility_consistency": "pass",
+    "m1_independent_truth_audit": "pass",
+    "audit_coverage_and_reconstruction_match_outcomes": "pass"
+  },
+  "row_counts": {
+    "outcomes": 7200,
+    "summary": 24,
+    "audit_questions": 10
+  },
+  "human_review_status": "pending"
+}

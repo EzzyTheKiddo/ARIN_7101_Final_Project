@@ -1,0 +1,1201 @@
+seed,scenario,t,arm,question,y,cost,utility,coverage,outdated,construction_ms,qtype,state
+130100,abrupt,0,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.045200000386103056,recent,A
+130100,abrupt,0,recent_long,What is its current evaluation measure?,1,550,0.462890625,1,0,0.18559999989520293,recent,A
+130100,abrupt,0,tfidf,What is its current evaluation measure?,1,214,0.791015625,1,0,4.1853999991872115,recent,A
+130100,abrupt,0,resolved_tfidf,What is its current evaluation measure?,1,237,0.7685546875,1,0,4.156200000579702,recent,A
+130100,abrupt,1,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.0349000001733657,recent,A
+130100,abrupt,1,recent_long,What is its current metric?,1,549,0.4638671875,1,0,0.17109999862441327,recent,A
+130100,abrupt,1,tfidf,What is its current metric?,1,200,0.8046875,0,0,3.463499999270425,recent,A
+130100,abrupt,1,resolved_tfidf,What is its current metric?,1,235,0.7705078125,1,0,5.376200000682729,recent,A
+130100,abrupt,2,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.03600000127335079,recent,A
+130100,abrupt,2,recent_long,What is its current due date?,1,549,0.4638671875,1,0,0.24990000019897707,recent,A
+130100,abrupt,2,tfidf,What is its current due date?,1,191,0.8134765625,1,0,3.6707999988720985,recent,A
+130100,abrupt,2,resolved_tfidf,What is its current due date?,1,214,0.791015625,1,0,4.27049999962037,recent,A
+130100,abrupt,3,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.036899999031447805,recent,A
+130100,abrupt,3,recent_long,What is its current coding language?,1,549,0.4638671875,1,0,0.17490000027464703,recent,A
+130100,abrupt,3,tfidf,What is its current coding language?,1,183,0.8212890625,1,0,6.574999999429565,recent,A
+130100,abrupt,3,resolved_tfidf,What is its current coding language?,1,239,0.7666015625,1,0,4.294399999707821,recent,A
+130100,abrupt,4,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.03549999928509351,recent,A
+130100,abrupt,4,recent_long,What is its current language?,1,546,0.466796875,1,0,0.176199999259552,recent,A
+130100,abrupt,4,tfidf,What is its current language?,1,167,0.8369140625,1,0,3.7011999993410427,recent,A
+130100,abrupt,4,resolved_tfidf,What is its current language?,1,215,0.7900390625,1,0,5.564900000535999,recent,A
+130100,abrupt,5,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.038100000892882235,recent,A
+130100,abrupt,5,recent_long,What is its current deadline?,1,544,0.46875,1,0,0.18880000061471947,recent,A
+130100,abrupt,5,tfidf,What is its current deadline?,0,156,-0.15234375,0,1,4.09389999913401,recent,A
+130100,abrupt,5,resolved_tfidf,What is its current deadline?,1,234,0.771484375,1,0,4.624199998943368,recent,A
+130100,abrupt,6,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.03730000025825575,recent,A
+130100,abrupt,6,recent_long,What is its current deadline?,1,544,0.46875,1,0,0.17579999985173345,recent,A
+130100,abrupt,6,tfidf,What is its current deadline?,0,145,-0.1416015625,0,0,5.966200000329991,recent,A
+130100,abrupt,6,resolved_tfidf,What is its current deadline?,1,203,0.8017578125,1,0,4.3725000014092075,recent,A
+130100,abrupt,7,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.036100000215810724,recent,A
+130100,abrupt,7,recent_long,What is its current coding language?,1,542,0.470703125,1,0,0.18929999896499794,recent,A
+130100,abrupt,7,tfidf,What is its current coding language?,0,183,-0.1787109375,0,0,5.780699999377248,recent,A
+130100,abrupt,7,resolved_tfidf,What is its current coding language?,1,215,0.7900390625,1,0,4.608400000506663,recent,A
+130100,abrupt,8,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.03680000008898787,recent,A
+130100,abrupt,8,recent_long,What is its current dataset?,1,540,0.47265625,1,0,0.17599999955564272,recent,A
+130100,abrupt,8,tfidf,What is its current dataset?,0,200,-0.1953125,1,0,3.7171000003581867,recent,A
+130100,abrupt,8,resolved_tfidf,What is its current dataset?,1,201,0.8037109375,1,0,6.686400000035064,recent,A
+130100,abrupt,9,recent_short,What is P2 current evaluation measure?,0,85,-0.0830078125,0,0,0.03819999983534217,historical,A
+130100,abrupt,9,recent_long,What is P2 current evaluation measure?,1,540,0.47265625,1,0,0.17870000010589138,historical,A
+130100,abrupt,9,tfidf,What is P2 current evaluation measure?,1,215,0.7900390625,1,0,3.7467999991349643,historical,A
+130100,abrupt,9,resolved_tfidf,What is P2 current evaluation measure?,1,213,0.7919921875,1,0,4.658699999708915,historical,A
+130100,abrupt,10,recent_short,What is its current language?,1,84,0.91796875,1,0,0.0380000001314329,recent,A
+130100,abrupt,10,recent_long,What is its current language?,1,538,0.474609375,1,0,0.17979999938688707,recent,A
+130100,abrupt,10,tfidf,What is its current language?,0,134,-0.130859375,0,0,5.069299999377108,recent,A
+130100,abrupt,10,resolved_tfidf,What is its current language?,1,202,0.802734375,1,0,4.739400001199101,recent,A
+130100,abrupt,11,recent_short,What is its current language?,1,84,0.91796875,1,0,0.03840000135824084,recent,A
+130100,abrupt,11,recent_long,What is its current language?,1,549,0.4638671875,1,0,0.18540000019129366,recent,A
+130100,abrupt,11,tfidf,What is its current language?,0,134,-0.130859375,0,0,3.93649999932677,recent,A
+130100,abrupt,11,resolved_tfidf,What is its current language?,1,181,0.8232421875,1,0,6.64860000142653,recent,A
+130100,abrupt,12,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.03839999953925144,recent,A
+130100,abrupt,12,recent_long,What is its current due date?,1,549,0.4638671875,1,0,0.18490000002202578,recent,A
+130100,abrupt,12,tfidf,What is its current due date?,0,171,-0.1669921875,0,0,3.8681000005453825,recent,A
+130100,abrupt,12,resolved_tfidf,What is its current due date?,1,191,0.8134765625,1,0,5.70030000017141,recent,A
+130100,abrupt,13,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.06880000000819564,recent,A
+130100,abrupt,13,recent_long,What is its current metric?,1,549,0.4638671875,1,0,0.3273999991506571,recent,A
+130100,abrupt,13,tfidf,What is its current metric?,0,189,-0.1845703125,0,0,4.541899999821908,recent,A
+130100,abrupt,13,resolved_tfidf,What is its current metric?,1,214,0.791015625,1,0,4.835300000195275,recent,A
+130100,abrupt,14,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.046299999667098746,recent,A
+130100,abrupt,14,recent_long,What is its current deadline?,1,548,0.46484375,1,0,0.19940000129281543,recent,A
+130100,abrupt,14,tfidf,What is its current deadline?,0,222,-0.216796875,1,0,7.102700001269113,recent,A
+130100,abrupt,14,resolved_tfidf,What is its current deadline?,1,178,0.826171875,1,0,5.479800000102841,recent,A
+130100,abrupt,15,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.04220000118948519,recent,A
+130100,abrupt,15,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.371899999663583,recent,A
+130100,abrupt,15,tfidf,What is its current data source?,0,147,-0.1435546875,0,0,4.6314999999594875,recent,A
+130100,abrupt,15,resolved_tfidf,What is its current data source?,1,190,0.814453125,1,0,5.95439999960945,recent,A
+130100,abrupt,16,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.04119999903196003,recent,A
+130100,abrupt,16,recent_long,What is its current dataset?,1,548,0.46484375,1,0,0.18879999879573006,recent,A
+130100,abrupt,16,tfidf,What is its current dataset?,0,222,-0.216796875,1,0,4.601300001013442,recent,A
+130100,abrupt,16,resolved_tfidf,What is its current dataset?,1,202,0.802734375,1,0,8.390499999222811,recent,A
+130100,abrupt,17,recent_short,What is P3 current metric?,0,83,-0.0810546875,0,0,0.08900000102585182,historical,A
+130100,abrupt,17,recent_long,What is P3 current metric?,1,547,0.4658203125,1,0,0.1843999998527579,historical,A
+130100,abrupt,17,tfidf,What is P3 current metric?,1,200,0.8046875,0,0,4.728199999590288,historical,A
+130100,abrupt,17,resolved_tfidf,What is P3 current metric?,1,202,0.802734375,1,0,5.562600001212559,historical,A
+130100,abrupt,18,recent_short,What is its current dataset?,1,84,0.91796875,1,0,0.11480000102892518,recent,A
+130100,abrupt,18,recent_long,What is its current dataset?,1,548,0.46484375,1,0,0.35960000059276354,recent,A
+130100,abrupt,18,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,4.591400000208523,recent,A
+130100,abrupt,18,resolved_tfidf,What is its current dataset?,1,202,0.802734375,1,0,5.904899999222835,recent,A
+130100,abrupt,19,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.07980000009411015,recent,A
+130100,abrupt,19,recent_long,What is its current data source?,1,550,0.462890625,1,0,0.1886000009108102,recent,A
+130100,abrupt,19,tfidf,What is its current data source?,1,171,0.8330078125,1,0,5.64210000084131,recent,A
+130100,abrupt,19,resolved_tfidf,What is its current data source?,1,170,0.833984375,1,0,5.788200000097277,recent,A
+130100,abrupt,20,recent_short,What is P5 current due date?,0,85,-0.0830078125,0,0,0.04439999975147657,historical,A
+130100,abrupt,20,recent_long,What is P5 current due date?,0,550,-0.537109375,0,0,0.1919999995152466,historical,A
+130100,abrupt,20,tfidf,What is P5 current due date?,0,171,-0.1669921875,0,0,4.057699999975739,historical,A
+130100,abrupt,20,resolved_tfidf,What is P5 current due date?,1,168,0.8359375,1,0,8.421999998972751,historical,A
+130100,abrupt,21,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.05599999894911889,recent,A
+130100,abrupt,21,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.19139999858452938,recent,A
+130100,abrupt,21,tfidf,What is its current data source?,0,171,-0.1669921875,0,0,4.8928999985946575,recent,A
+130100,abrupt,21,resolved_tfidf,What is its current data source?,1,169,0.8349609375,1,0,10.88040000104229,recent,A
+130100,abrupt,22,recent_short,What is its current due date?,1,85,0.9169921875,1,0,0.04749999970954377,recent,A
+130100,abrupt,22,recent_long,What is its current due date?,1,549,0.4638671875,1,0,0.19409999913477805,recent,A
+130100,abrupt,22,tfidf,What is its current due date?,0,183,-0.1787109375,1,0,4.3428999997559,recent,A
+130100,abrupt,22,resolved_tfidf,What is its current due date?,1,193,0.8115234375,1,0,7.3700000011740485,recent,A
+130100,abrupt,23,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.04540000009001233,recent,A
+130100,abrupt,23,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.18820000150299165,recent,A
+130100,abrupt,23,tfidf,What is its current coding language?,0,231,-0.2255859375,1,0,4.005899998446694,recent,A
+130100,abrupt,23,resolved_tfidf,What is its current coding language?,1,182,0.822265625,1,0,7.687000001169508,recent,A
+130100,abrupt,24,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.08279999929072801,recent,A
+130100,abrupt,24,recent_long,What is its current evaluation measure?,1,549,0.4638671875,1,0,0.3008999992744066,recent,A
+130100,abrupt,24,tfidf,What is its current evaluation measure?,1,183,0.8212890625,0,0,5.203200000323704,recent,A
+130100,abrupt,24,resolved_tfidf,What is its current evaluation measure?,1,238,0.767578125,1,0,6.657299998551025,recent,A
+130100,abrupt,25,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.07239999831654131,recent,A
+130100,abrupt,25,recent_long,What is its current dataset?,1,548,0.46484375,1,0,0.1976000003196532,recent,A
+130100,abrupt,25,tfidf,What is its current dataset?,0,222,-0.216796875,1,0,4.6118999998725485,recent,A
+130100,abrupt,25,resolved_tfidf,What is its current dataset?,1,169,0.8349609375,1,0,5.853200000274228,recent,A
+130100,abrupt,26,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.0717999992048135,recent,A
+130100,abrupt,26,recent_long,What is its current coding language?,1,549,0.4638671875,1,0,0.18660000023373868,recent,A
+130100,abrupt,26,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,7.2440000003553,recent,A
+130100,abrupt,26,resolved_tfidf,What is its current coding language?,1,191,0.8134765625,1,0,10.851999999431428,recent,A
+130100,abrupt,27,recent_short,What is P6 current due date?,0,84,-0.08203125,0,0,0.0641999995423248,historical,A
+130100,abrupt,27,recent_long,What is P6 current due date?,0,549,-0.5361328125,0,0,0.28589999965333845,historical,A
+130100,abrupt,27,tfidf,What is P6 current due date?,1,183,0.8212890625,1,0,4.732800000056159,historical,A
+130100,abrupt,27,resolved_tfidf,What is P6 current due date?,1,170,0.833984375,1,0,6.395700000211946,historical,A
+130100,abrupt,28,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.048800000513438135,recent,A
+130100,abrupt,28,recent_long,What is its current data source?,1,550,0.462890625,1,0,0.20459999905142467,recent,A
+130100,abrupt,28,tfidf,What is its current data source?,0,183,-0.1787109375,1,0,6.134700000984594,recent,A
+130100,abrupt,28,resolved_tfidf,What is its current data source?,1,170,0.833984375,1,0,7.004799999776878,recent,A
+130100,abrupt,29,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.0503999999637017,recent,A
+130100,abrupt,29,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.1962000005732989,recent,A
+130100,abrupt,29,tfidf,What is its current data source?,0,183,-0.1787109375,0,0,5.446499999379739,recent,A
+130100,abrupt,29,resolved_tfidf,What is its current data source?,1,180,0.82421875,1,0,7.840799999030423,recent,A
+130100,abrupt,30,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.09080000018002465,recent,A
+130100,abrupt,30,recent_long,What is its current metric?,1,548,0.46484375,1,0,0.1971000001503853,recent,A
+130100,abrupt,30,tfidf,What is its current metric?,0,211,-0.2060546875,0,0,4.6820000006846385,recent,A
+130100,abrupt,30,resolved_tfidf,What is its current metric?,1,158,0.845703125,1,0,7.536300001447671,recent,A
+130100,abrupt,31,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.0715000005584443,recent,A
+130100,abrupt,31,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.29460000041581225,recent,A
+130100,abrupt,31,tfidf,What is its current evaluation measure?,1,195,0.8095703125,0,0,4.310000000259606,recent,A
+130100,abrupt,31,resolved_tfidf,What is its current evaluation measure?,1,170,0.833984375,1,0,7.002899999861256,recent,A
+130100,abrupt,32,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.05090000013296958,recent,A
+130100,abrupt,32,recent_long,What is its current deadline?,1,547,0.4658203125,1,0,0.19659999998111743,recent,A
+130100,abrupt,32,tfidf,What is its current deadline?,0,222,-0.216796875,1,0,5.048400000305264,recent,A
+130100,abrupt,32,resolved_tfidf,What is its current deadline?,1,168,0.8359375,1,0,11.481999999887194,recent,A
+130100,abrupt,33,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.053199999456410296,recent,A
+130100,abrupt,33,recent_long,What is its current data source?,1,548,0.46484375,1,0,0.19630000133474823,recent,A
+130100,abrupt,33,tfidf,What is its current data source?,0,195,-0.1904296875,1,0,4.698400000052061,recent,A
+130100,abrupt,33,resolved_tfidf,What is its current data source?,1,169,0.8349609375,1,0,7.550899999841931,recent,A
+130100,abrupt,34,recent_short,What is its current language?,1,84,0.91796875,1,0,0.053199999456410296,recent,A
+130100,abrupt,34,recent_long,What is its current language?,1,547,0.4658203125,1,0,0.2117000003636349,recent,A
+130100,abrupt,34,tfidf,What is its current language?,0,223,-0.2177734375,0,0,4.561400000966387,recent,A
+130100,abrupt,34,resolved_tfidf,What is its current language?,1,168,0.8359375,1,0,9.810400000787922,recent,A
+130100,abrupt,35,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.05400000009103678,recent,A
+130100,abrupt,35,recent_long,What is its current deadline?,1,547,0.4658203125,1,0,0.1885999990918208,recent,A
+130100,abrupt,35,tfidf,What is its current deadline?,0,222,-0.216796875,1,0,4.6559000002162065,recent,A
+130100,abrupt,35,resolved_tfidf,What is its current deadline?,1,156,0.84765625,1,0,7.636099999217549,recent,A
+130100,abrupt,36,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.058200001149089076,recent,A
+130100,abrupt,36,recent_long,What is its current data source?,1,548,0.46484375,1,0,0.20260000019334257,recent,A
+130100,abrupt,36,tfidf,What is its current data source?,0,195,-0.1904296875,0,0,4.894899999271729,recent,A
+130100,abrupt,36,resolved_tfidf,What is its current data source?,1,181,0.8232421875,1,0,6.951999999728287,recent,A
+130100,abrupt,37,recent_short,What is its current dataset?,1,84,0.91796875,1,0,0.05459999920276459,recent,A
+130100,abrupt,37,recent_long,What is its current dataset?,1,548,0.46484375,1,0,0.20050000057381112,recent,A
+130100,abrupt,37,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,6.09959999928833,recent,A
+130100,abrupt,37,resolved_tfidf,What is its current dataset?,1,179,0.8251953125,1,0,7.6509999998961575,recent,A
+130100,abrupt,38,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.052400000640773214,recent,A
+130100,abrupt,38,recent_long,What is its current deadline?,1,549,0.4638671875,1,0,0.24189999930968042,recent,A
+130100,abrupt,38,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,5.212899999605725,recent,A
+130100,abrupt,38,resolved_tfidf,What is its current deadline?,1,168,0.8359375,1,0,6.956699999136617,recent,A
+130100,abrupt,39,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.05359999886422884,recent,A
+130100,abrupt,39,recent_long,What is its current evaluation measure?,1,549,0.4638671875,1,0,0.24339999981748406,recent,A
+130100,abrupt,39,tfidf,What is its current evaluation measure?,0,195,-0.1904296875,0,0,7.441800000378862,recent,A
+130100,abrupt,39,resolved_tfidf,What is its current evaluation measure?,1,169,0.8349609375,1,0,7.597399999212939,recent,A
+130100,abrupt,40,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.0579999996261904,recent,A
+130100,abrupt,40,recent_long,What is its current metric?,1,549,0.4638671875,1,0,0.36539999928209,recent,A
+130100,abrupt,40,tfidf,What is its current metric?,0,222,-0.216796875,0,0,8.14410000020871,recent,A
+130100,abrupt,40,resolved_tfidf,What is its current metric?,1,180,0.82421875,1,0,7.758300000205054,recent,A
+130100,abrupt,41,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.09810000119614415,recent,A
+130100,abrupt,41,recent_long,What is its current data source?,1,550,0.462890625,1,0,1.8067999990307726,recent,A
+130100,abrupt,41,tfidf,What is its current data source?,0,219,-0.2138671875,1,0,8.27930000014021,recent,A
+130100,abrupt,41,resolved_tfidf,What is its current data source?,1,181,0.8232421875,1,0,11.720299999069539,recent,A
+130100,abrupt,42,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.11079999967478216,recent,A
+130100,abrupt,42,recent_long,What is its current metric?,1,550,0.462890625,1,0,0.3637999998318264,recent,A
+130100,abrupt,42,tfidf,What is its current metric?,0,222,-0.216796875,0,0,5.710499999622698,recent,A
+130100,abrupt,42,resolved_tfidf,What is its current metric?,1,168,0.8359375,1,0,10.645000000295113,recent,A
+130100,abrupt,43,recent_short,What is its current due date?,1,85,0.9169921875,1,0,0.1171000003523659,recent,A
+130100,abrupt,43,recent_long,What is its current due date?,1,542,0.470703125,1,0,0.2055000004475005,recent,A
+130100,abrupt,43,tfidf,What is its current due date?,1,207,0.7978515625,1,0,9.65879999967001,recent,A
+130100,abrupt,43,resolved_tfidf,What is its current due date?,1,181,0.8232421875,1,0,17.480099999374943,recent,A
+130100,abrupt,44,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.10010000005422626,recent,A
+130100,abrupt,44,recent_long,What is its current metric?,1,541,0.4716796875,1,0,0.37479999991774093,recent,A
+130100,abrupt,44,tfidf,What is its current metric?,0,222,-0.216796875,0,0,10.296099999322905,recent,A
+130100,abrupt,44,resolved_tfidf,What is its current metric?,1,192,0.8125,1,0,16.21979999981704,recent,A
+130100,abrupt,45,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.11380000069038942,recent,A
+130100,abrupt,45,recent_long,What is its current due date?,1,551,0.4619140625,1,0,0.40219999937107787,recent,A
+130100,abrupt,45,tfidf,What is its current due date?,1,207,0.7978515625,0,0,5.834900000991183,recent,A
+130100,abrupt,45,resolved_tfidf,What is its current due date?,1,192,0.8125,1,0,12.489900000218768,recent,A
+130100,abrupt,46,recent_short,What is its current dataset?,1,84,0.91796875,1,0,0.05849999979545828,recent,A
+130100,abrupt,46,recent_long,What is its current dataset?,1,541,0.4716796875,1,0,0.19119999888062011,recent,A
+130100,abrupt,46,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,7.820599999831757,recent,A
+130100,abrupt,46,resolved_tfidf,What is its current dataset?,1,168,0.8359375,1,0,8.464799999273964,recent,A
+130100,abrupt,47,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.09999999929277692,recent,A
+130100,abrupt,47,recent_long,What is its current coding language?,1,542,0.470703125,1,0,0.22249999892665073,recent,A
+130100,abrupt,47,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,6.870299999718554,recent,A
+130100,abrupt,47,resolved_tfidf,What is its current coding language?,1,169,0.8349609375,1,0,8.097600000837701,recent,A
+130100,abrupt,48,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.06070000017643906,recent,A
+130100,abrupt,48,recent_long,What is its current evaluation measure?,1,551,0.4619140625,1,0,0.21919999926467426,recent,A
+130100,abrupt,48,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,9.513800001514028,recent,A
+130100,abrupt,48,resolved_tfidf,What is its current evaluation measure?,1,169,0.8349609375,1,0,10.593900000458234,recent,A
+130100,abrupt,49,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.12549999883049168,recent,A
+130100,abrupt,49,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.22460000036517158,recent,A
+130100,abrupt,49,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,5.565399998886278,recent,A
+130100,abrupt,49,resolved_tfidf,What is its current coding language?,1,182,0.822265625,1,0,12.979399998584995,recent,A
+130100,abrupt,50,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.14080000073590782,recent,A
+130100,abrupt,50,recent_long,What is its current metric?,1,550,0.462890625,1,0,0.45649999992747325,recent,A
+130100,abrupt,50,tfidf,What is its current metric?,0,222,-0.216796875,0,0,15.314700000089942,recent,A
+130100,abrupt,50,resolved_tfidf,What is its current metric?,1,180,0.82421875,1,0,55.78359999890381,recent,A
+130100,abrupt,51,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.11690000064845663,recent,A
+130100,abrupt,51,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.3873000005114591,recent,A
+130100,abrupt,51,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,45.95249999874795,recent,A
+130100,abrupt,51,resolved_tfidf,What is its current coding language?,1,169,0.8349609375,1,0,25.11210000011488,recent,A
+130100,abrupt,52,recent_short,What is P1 current evaluation measure?,0,84,-0.08203125,0,0,0.11719999929482583,historical,A
+130100,abrupt,52,recent_long,What is P1 current evaluation measure?,1,549,0.4638671875,1,0,0.3815000000031432,historical,A
+130100,abrupt,52,tfidf,What is P1 current evaluation measure?,0,231,-0.2255859375,0,1,31.04699999857985,historical,A
+130100,abrupt,52,resolved_tfidf,What is P1 current evaluation measure?,1,169,0.8349609375,1,0,18.656000000191852,historical,A
+130100,abrupt,53,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.11489999997138511,recent,A
+130100,abrupt,53,recent_long,What is its current metric?,1,548,0.46484375,1,0,0.3529999994498212,recent,A
+130100,abrupt,53,tfidf,What is its current metric?,0,222,-0.216796875,0,0,9.99469999987923,recent,A
+130100,abrupt,53,resolved_tfidf,What is its current metric?,1,181,0.8232421875,1,0,13.734100000874605,recent,A
+130100,abrupt,54,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.06740000026184134,recent,A
+130100,abrupt,54,recent_long,What is its current dataset?,1,547,0.4658203125,1,0,0.22010000066075008,recent,A
+130100,abrupt,54,tfidf,What is its current dataset?,0,222,-0.216796875,1,0,8.834800000840914,recent,A
+130100,abrupt,54,resolved_tfidf,What is its current dataset?,1,190,0.814453125,1,0,12.551300000268384,recent,A
+130100,abrupt,55,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.7654999990336364,recent,A
+130100,abrupt,55,recent_long,What is its current coding language?,1,548,0.46484375,1,0,0.5024999991292134,recent,A
+130100,abrupt,55,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,7.955899998705718,recent,A
+130100,abrupt,55,resolved_tfidf,What is its current coding language?,1,170,0.833984375,1,0,9.524799999780953,recent,A
+130100,abrupt,56,recent_short,What is its current dataset?,1,84,0.91796875,1,0,0.06609999945794698,recent,A
+130100,abrupt,56,recent_long,What is its current dataset?,1,548,0.46484375,1,0,0.21709999964514282,recent,A
+130100,abrupt,56,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,6.067599999369122,recent,A
+130100,abrupt,56,resolved_tfidf,What is its current dataset?,1,202,0.802734375,1,0,10.438600000270526,recent,A
+130100,abrupt,57,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.10440000005473848,recent,A
+130100,abrupt,57,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.22290000015345868,recent,A
+130100,abrupt,57,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,5.388900000980357,recent,A
+130100,abrupt,57,resolved_tfidf,What is its current evaluation measure?,1,157,0.8466796875,1,0,9.604900000340422,recent,A
+130100,abrupt,58,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.06580000081157777,recent,A
+130100,abrupt,58,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.22179999905347358,recent,A
+130100,abrupt,58,tfidf,What is its current data source?,0,231,-0.2255859375,1,0,5.288700000164681,recent,A
+130100,abrupt,58,resolved_tfidf,What is its current data source?,1,193,0.8115234375,1,0,11.611899999479647,recent,A
+130100,abrupt,59,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.06690000009257346,recent,A
+130100,abrupt,59,recent_long,What is its current coding language?,1,549,0.4638671875,1,0,0.2111000012519071,recent,A
+130100,abrupt,59,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,5.480499999976018,recent,A
+130100,abrupt,59,resolved_tfidf,What is its current coding language?,1,180,0.82421875,1,0,9.62210000034247,recent,A
+130100,abrupt,60,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.06799999937356915,recent,A
+130100,abrupt,60,recent_long,What is its current metric?,1,548,0.46484375,1,0,0.2105999992636498,recent,A
+130100,abrupt,60,tfidf,What is its current metric?,0,222,-0.216796875,1,0,5.278300001009484,recent,A
+130100,abrupt,60,resolved_tfidf,What is its current metric?,1,191,0.8134765625,1,0,13.134200000422425,recent,A
+130100,abrupt,61,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.06749999920430128,recent,A
+130100,abrupt,61,recent_long,What is its current data source?,1,548,0.46484375,1,0,0.21209999977145344,recent,A
+130100,abrupt,61,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,7.88740000098187,recent,A
+130100,abrupt,61,resolved_tfidf,What is its current data source?,1,181,0.8232421875,1,0,15.12679999905231,recent,A
+130100,abrupt,62,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.11959999937971588,recent,A
+130100,abrupt,62,recent_long,What is its current metric?,1,547,0.4658203125,1,0,0.36610000097425655,recent,A
+130100,abrupt,62,tfidf,What is its current metric?,0,222,-0.216796875,0,0,5.523199999515782,recent,A
+130100,abrupt,62,resolved_tfidf,What is its current metric?,1,167,0.8369140625,1,0,10.085399999297806,recent,A
+130100,abrupt,63,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.06810000013501849,recent,A
+130100,abrupt,63,recent_long,What is its current coding language?,1,548,0.46484375,1,0,0.2404000006208662,recent,A
+130100,abrupt,63,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,5.249100000582985,recent,A
+130100,abrupt,63,resolved_tfidf,What is its current coding language?,1,193,0.8115234375,1,0,9.65379999979632,recent,A
+130100,abrupt,64,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.06860000030428637,recent,A
+130100,abrupt,64,recent_long,What is its current evaluation measure?,1,547,0.4658203125,1,0,0.21280000146362,recent,A
+130100,abrupt,64,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,5.477800001244759,recent,A
+130100,abrupt,64,resolved_tfidf,What is its current evaluation measure?,1,180,0.82421875,1,0,9.448500000871718,recent,A
+130100,abrupt,65,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.06849999954283703,recent,A
+130100,abrupt,65,recent_long,What is its current evaluation measure?,1,547,0.4658203125,1,0,0.2148000003217021,recent,A
+130100,abrupt,65,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,5.594000000201049,recent,A
+130100,abrupt,65,resolved_tfidf,What is its current evaluation measure?,1,191,0.8134765625,1,0,11.291100001471932,recent,A
+130100,abrupt,66,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.0667000003886642,recent,A
+130100,abrupt,66,recent_long,What is its current dataset?,1,545,0.4677734375,1,0,0.24459999985992908,recent,A
+130100,abrupt,66,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,7.026999999652617,recent,A
+130100,abrupt,66,resolved_tfidf,What is its current dataset?,1,167,0.8369140625,1,0,9.249400000044261,recent,A
+130100,abrupt,67,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.06960000064282212,recent,A
+130100,abrupt,67,recent_long,What is its current evaluation measure?,1,545,0.4677734375,1,0,0.20510000103968196,recent,A
+130100,abrupt,67,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,7.71570000142674,recent,A
+130100,abrupt,67,resolved_tfidf,What is its current evaluation measure?,1,203,0.8017578125,1,0,11.149400001158938,recent,A
+130100,abrupt,68,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.10850000035134144,recent,A
+130100,abrupt,68,recent_long,What is its current due date?,1,545,0.4677734375,1,0,0.2158999996026978,recent,A
+130100,abrupt,68,tfidf,What is its current due date?,0,207,-0.2021484375,0,1,7.335600001169951,recent,A
+130100,abrupt,68,resolved_tfidf,What is its current due date?,1,169,0.8349609375,1,0,10.315400000763475,recent,A
+130100,abrupt,69,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.0746000005165115,recent,A
+130100,abrupt,69,recent_long,What is its current metric?,1,543,0.4697265625,1,0,0.2496999986760784,recent,A
+130100,abrupt,69,tfidf,What is its current metric?,0,222,-0.216796875,1,0,6.520000000818982,recent,A
+130100,abrupt,69,resolved_tfidf,What is its current metric?,1,203,0.8017578125,1,0,11.023999999451917,recent,A
+130100,abrupt,70,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.07130000085453503,recent,A
+130100,abrupt,70,recent_long,What is its current deadline?,1,544,0.46875,1,0,0.2091999995172955,recent,A
+130100,abrupt,70,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,6.39950000004319,recent,A
+130100,abrupt,70,resolved_tfidf,What is its current deadline?,1,190,0.814453125,1,0,11.6254000004119,recent,A
+130100,abrupt,71,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.07310000000870787,recent,A
+130100,abrupt,71,recent_long,What is its current evaluation measure?,1,546,0.466796875,1,0,0.21460000061779283,recent,A
+130100,abrupt,71,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,5.446099999971921,recent,A
+130100,abrupt,71,resolved_tfidf,What is its current evaluation measure?,1,215,0.7900390625,1,0,10.812399999849731,recent,A
+130100,abrupt,72,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.07259999983943999,recent,A
+130100,abrupt,72,recent_long,What is its current language?,1,545,0.4677734375,1,0,0.21639999977196567,recent,A
+130100,abrupt,72,tfidf,What is its current language?,0,222,-0.216796875,1,0,6.916899999851012,recent,A
+130100,abrupt,72,resolved_tfidf,What is its current language?,1,178,0.826171875,1,0,10.479099999429309,recent,A
+130100,abrupt,73,recent_short,What is its current due date?,1,85,0.9169921875,1,0,0.07279999954334926,recent,A
+130100,abrupt,73,recent_long,What is its current due date?,1,547,0.4658203125,1,0,0.22790000002714805,recent,A
+130100,abrupt,73,tfidf,What is its current due date?,0,231,-0.2255859375,1,0,7.272700000612531,recent,A
+130100,abrupt,73,resolved_tfidf,What is its current due date?,1,181,0.8232421875,1,0,9.361400001580478,recent,A
+130100,abrupt,74,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.07369999912043568,recent,A
+130100,abrupt,74,recent_long,What is its current coding language?,1,547,0.4658203125,1,0,0.21320000087143853,recent,A
+130100,abrupt,74,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,10.57550000041374,recent,A
+130100,abrupt,74,resolved_tfidf,What is its current coding language?,1,204,0.80078125,1,0,11.975199999142205,recent,A
+130100,abrupt,75,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.11839999933727086,recent,A
+130100,abrupt,75,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.2147999985027127,recent,A
+130100,abrupt,75,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,1,0,5.484699999215081,recent,A
+130100,abrupt,75,resolved_tfidf,What is its current evaluation measure?,1,239,0.7666015625,1,0,11.300699999992503,recent,A
+130100,abrupt,76,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.0746000005165115,recent,A
+130100,abrupt,76,recent_long,What is its current metric?,1,548,0.46484375,1,0,0.21529999867198057,recent,A
+130100,abrupt,76,tfidf,What is its current metric?,0,222,-0.216796875,0,0,8.326999999553664,recent,A
+130100,abrupt,76,resolved_tfidf,What is its current metric?,1,180,0.82421875,1,0,10.078200000862125,recent,A
+130100,abrupt,77,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.1551000004837988,recent,A
+130100,abrupt,77,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.27039999986300245,recent,A
+130100,abrupt,77,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,10.417199999210425,recent,A
+130100,abrupt,77,resolved_tfidf,What is its current data source?,1,192,0.8125,1,0,11.133100000733975,recent,A
+130100,abrupt,78,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.0774000000092201,recent,A
+130100,abrupt,78,recent_long,What is its current language?,1,548,0.46484375,1,0,0.21799999922222923,recent,A
+130100,abrupt,78,tfidf,What is its current language?,0,222,-0.216796875,1,0,5.790400000478257,recent,A
+130100,abrupt,78,resolved_tfidf,What is its current language?,1,189,0.8154296875,1,0,14.104600000791834,recent,A
+130100,abrupt,79,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.07999999979801942,recent,A
+130100,abrupt,79,recent_long,What is its current metric?,1,548,0.46484375,1,0,0.22600000011152588,recent,A
+130100,abrupt,79,tfidf,What is its current metric?,0,222,-0.216796875,0,0,8.135100000799866,recent,A
+130100,abrupt,79,resolved_tfidf,What is its current metric?,1,201,0.8037109375,1,0,10.538300000916934,recent,A
+130100,abrupt,80,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.07800000093993731,recent,A
+130100,abrupt,80,recent_long,What is its current data source?,1,550,0.462890625,1,0,0.22150000040710438,recent,A
+130100,abrupt,80,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,7.792599999447702,recent,A
+130100,abrupt,80,resolved_tfidf,What is its current data source?,1,180,0.82421875,1,0,11.47319999836327,recent,A
+130100,abrupt,81,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.10209999891230837,recent,A
+130100,abrupt,81,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.2303000001120381,recent,A
+130100,abrupt,81,tfidf,What is its current coding language?,0,231,-0.2255859375,1,0,6.4509999992878875,recent,A
+130100,abrupt,81,resolved_tfidf,What is its current coding language?,1,182,0.822265625,1,0,12.786100000084843,recent,A
+130100,abrupt,82,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.07949999962875154,recent,A
+130100,abrupt,82,recent_long,What is its current deadline?,1,548,0.46484375,1,0,0.22019999960321002,recent,A
+130100,abrupt,82,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,5.661000001055072,recent,A
+130100,abrupt,82,resolved_tfidf,What is its current deadline?,1,191,0.8134765625,1,0,11.297500001091976,recent,A
+130100,abrupt,83,recent_short,What is its current due date?,1,85,0.9169921875,1,0,0.07829999958630651,recent,A
+130100,abrupt,83,recent_long,What is its current due date?,1,550,0.462890625,1,0,0.2196000004914822,recent,A
+130100,abrupt,83,tfidf,What is its current due date?,0,231,-0.2255859375,0,0,5.537499999263673,recent,A
+130100,abrupt,83,resolved_tfidf,What is its current due date?,1,204,0.80078125,1,0,14.389899999514455,recent,A
+130100,abrupt,84,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.07879999975557439,recent,A
+130100,abrupt,84,recent_long,What is its current language?,1,548,0.46484375,1,0,0.22709999939252157,recent,A
+130100,abrupt,84,tfidf,What is its current language?,0,222,-0.216796875,0,0,6.779699999242439,recent,A
+130100,abrupt,84,resolved_tfidf,What is its current language?,1,192,0.8125,1,0,9.672400001363712,recent,A
+130100,abrupt,85,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.0886999987415038,recent,A
+130100,abrupt,85,recent_long,What is its current data source?,1,550,0.462890625,1,0,0.22119999994174577,recent,A
+130100,abrupt,85,tfidf,What is its current data source?,0,231,-0.2255859375,1,0,8.462300000246614,recent,A
+130100,abrupt,85,resolved_tfidf,What is its current data source?,1,204,0.80078125,1,0,11.107400001492351,recent,A
+130100,abrupt,86,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.08160000106727239,recent,A
+130100,abrupt,86,recent_long,What is its current dataset?,1,548,0.46484375,1,0,0.22530000023834873,recent,A
+130100,abrupt,86,tfidf,What is its current dataset?,0,222,-0.216796875,1,0,5.690300000424031,recent,A
+130100,abrupt,86,resolved_tfidf,What is its current dataset?,1,191,0.8134765625,1,0,11.55770000150369,recent,A
+130100,abrupt,87,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.0808000004326459,recent,A
+130100,abrupt,87,recent_long,What is its current dataset?,1,547,0.4658203125,1,0,0.22279999939200934,recent,A
+130100,abrupt,87,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,5.4935000007390045,recent,A
+130100,abrupt,87,resolved_tfidf,What is its current dataset?,1,202,0.802734375,1,0,11.489300000903313,recent,A
+130100,abrupt,88,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.08089999937510584,recent,A
+130100,abrupt,88,recent_long,What is its current deadline?,1,547,0.4658203125,1,0,0.2223999999841908,recent,A
+130100,abrupt,88,tfidf,What is its current deadline?,0,222,-0.216796875,1,0,5.850599998666439,recent,A
+130100,abrupt,88,resolved_tfidf,What is its current deadline?,1,179,0.8251953125,1,0,12.244699999428121,recent,A
+130100,abrupt,89,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.08160000106727239,recent,A
+130100,abrupt,89,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.22449999960372224,recent,A
+130100,abrupt,89,tfidf,What is its current data source?,0,231,-0.2255859375,1,0,6.921899999724701,recent,A
+130100,abrupt,89,resolved_tfidf,What is its current data source?,1,192,0.8125,1,0,10.842699999557226,recent,A
+130100,abrupt,90,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.07919999916339293,recent,A
+130100,abrupt,90,recent_long,What is its current language?,1,548,0.46484375,1,0,0.2519999998185085,recent,A
+130100,abrupt,90,tfidf,What is its current language?,0,222,-0.216796875,1,0,8.124899999529589,recent,A
+130100,abrupt,90,resolved_tfidf,What is its current language?,1,200,0.8046875,1,0,11.840000001029694,recent,A
+130100,abrupt,91,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.07929999992484227,recent,A
+130100,abrupt,91,recent_long,What is its current metric?,1,547,0.4658203125,1,0,0.21600000036414713,recent,A
+130100,abrupt,91,tfidf,What is its current metric?,0,222,-0.216796875,1,0,5.624800000077812,recent,A
+130100,abrupt,91,resolved_tfidf,What is its current metric?,1,212,0.79296875,1,0,18.20210000005318,recent,A
+130100,abrupt,92,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.08040000102482736,recent,A
+130100,abrupt,92,recent_long,What is its current language?,1,546,0.466796875,1,0,0.2153999994334299,recent,A
+130100,abrupt,92,tfidf,What is its current language?,0,222,-0.216796875,0,0,6.784400000469759,recent,A
+130100,abrupt,92,resolved_tfidf,What is its current language?,1,192,0.8125,1,0,10.721000000557979,recent,A
+130100,abrupt,93,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.08540000089851674,recent,A
+130100,abrupt,93,recent_long,What is its current metric?,1,547,0.4658203125,1,0,0.2196000004914822,recent,A
+130100,abrupt,93,tfidf,What is its current metric?,0,222,-0.216796875,0,0,7.310400000278605,recent,A
+130100,abrupt,93,resolved_tfidf,What is its current metric?,1,193,0.8115234375,1,0,12.985700001081568,recent,A
+130100,abrupt,94,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.0870000003487803,recent,A
+130100,abrupt,94,recent_long,What is its current coding language?,1,547,0.4658203125,1,0,0.23529999998572748,recent,A
+130100,abrupt,94,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,6.37549999919429,recent,A
+130100,abrupt,94,resolved_tfidf,What is its current coding language?,1,212,0.79296875,1,0,13.11119999991206,recent,A
+130100,abrupt,95,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.08990000060293823,recent,A
+130100,abrupt,95,recent_long,What is its current data source?,1,547,0.4658203125,1,0,0.22939999871596228,recent,A
+130100,abrupt,95,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,5.976500000542728,recent,A
+130100,abrupt,95,resolved_tfidf,What is its current data source?,1,215,0.7900390625,1,0,12.07339999928081,recent,A
+130100,abrupt,96,recent_short,What is its current language?,1,84,0.91796875,1,0,0.09870000030787196,recent,A
+130100,abrupt,96,recent_long,What is its current language?,1,546,0.466796875,1,0,0.2299999996466795,recent,A
+130100,abrupt,96,tfidf,What is its current language?,0,222,-0.216796875,0,0,8.218400000259862,recent,A
+130100,abrupt,96,resolved_tfidf,What is its current language?,1,215,0.7900390625,1,0,10.732000000643893,recent,A
+130100,abrupt,97,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.08870000056049321,recent,A
+130100,abrupt,97,recent_long,What is its current due date?,1,547,0.4658203125,1,0,0.23040000087348744,recent,A
+130100,abrupt,97,tfidf,What is its current due date?,0,231,-0.2255859375,0,0,7.04079999923124,recent,A
+130100,abrupt,97,resolved_tfidf,What is its current due date?,1,170,0.833984375,1,0,13.205200000811601,recent,A
+130100,abrupt,98,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.09099999988393392,recent,A
+130100,abrupt,98,recent_long,What is its current evaluation measure?,1,547,0.4658203125,1,0,0.2418000003672205,recent,A
+130100,abrupt,98,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,6.005499999446329,recent,A
+130100,abrupt,98,resolved_tfidf,What is its current evaluation measure?,1,236,0.76953125,1,0,12.658300000111922,recent,A
+130100,abrupt,99,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.09339999996882398,recent,A
+130100,abrupt,99,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.2333999982511159,recent,A
+130100,abrupt,99,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,8.088699998552329,recent,A
+130100,abrupt,99,resolved_tfidf,What is its current evaluation measure?,0,236,-0.23046875,0,1,14.245000000300934,recent,A
+130100,abrupt,100,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.15979999989212956,recent,A
+130100,abrupt,100,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.2504999993107049,recent,A
+130100,abrupt,100,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,7.313399999475223,recent,A
+130100,abrupt,100,resolved_tfidf,What is its current evaluation measure?,1,193,0.8115234375,1,0,15.025599999717087,recent,A
+130100,abrupt,101,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.09379999937664252,recent,A
+130100,abrupt,101,recent_long,What is its current deadline?,1,548,0.46484375,1,0,0.23289999990083743,recent,A
+130100,abrupt,101,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,9.954999999536085,recent,A
+130100,abrupt,101,resolved_tfidf,What is its current deadline?,1,215,0.7900390625,1,0,16.755299999204,recent,A
+130100,abrupt,102,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.09639999916544184,recent,A
+130100,abrupt,102,recent_long,What is its current language?,1,548,0.46484375,1,0,0.24909999956435058,recent,A
+130100,abrupt,102,tfidf,What is its current language?,0,222,-0.216796875,0,0,18.053699999654782,recent,A
+130100,abrupt,102,resolved_tfidf,What is its current language?,1,179,0.8251953125,1,0,70.5524000004516,recent,A
+130100,abrupt,103,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.1733999997668434,recent,A
+130100,abrupt,103,recent_long,What is its current due date?,1,549,0.4638671875,1,0,3.3997999998973683,recent,A
+130100,abrupt,103,tfidf,What is its current due date?,0,231,-0.2255859375,0,0,18.254399999932502,recent,A
+130100,abrupt,103,resolved_tfidf,What is its current due date?,1,203,0.8017578125,1,0,49.7668000007252,recent,A
+130100,abrupt,104,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.1695000009931391,recent,A
+130100,abrupt,104,recent_long,What is its current deadline?,1,547,0.4658203125,1,0,0.4318999999668449,recent,A
+130100,abrupt,104,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,18.353399998886744,recent,A
+130100,abrupt,104,resolved_tfidf,What is its current deadline?,1,238,0.767578125,1,0,26.208799999949406,recent,A
+130100,abrupt,105,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.09919999865815043,recent,A
+130100,abrupt,105,recent_long,What is its current deadline?,1,548,0.46484375,1,0,0.24290000146720558,recent,A
+130100,abrupt,105,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,7.393199999569333,recent,A
+130100,abrupt,105,resolved_tfidf,What is its current deadline?,1,191,0.8134765625,1,0,14.939000000595115,recent,A
+130100,abrupt,106,recent_short,What is its current language?,1,83,0.9189453125,1,0,0.09780000073078554,recent,A
+130100,abrupt,106,recent_long,What is its current language?,1,548,0.46484375,1,0,0.24310000117111485,recent,A
+130100,abrupt,106,tfidf,What is its current language?,0,222,-0.216796875,0,0,7.14950000110548,recent,A
+130100,abrupt,106,resolved_tfidf,What is its current language?,1,234,0.771484375,1,0,13.341800000489457,recent,A
+130100,abrupt,107,recent_short,What is P5 current deadline?,0,83,-0.0810546875,0,0,0.10019999899668619,historical,A
+130100,abrupt,107,recent_long,What is P5 current deadline?,0,547,-0.5341796875,0,0,0.2559000004112022,historical,A
+130100,abrupt,107,tfidf,What is P5 current deadline?,1,167,0.8369140625,1,0,6.6454000007070135,historical,A
+130100,abrupt,107,resolved_tfidf,What is P5 current deadline?,1,167,0.8369140625,1,0,11.338399999658577,historical,A
+130100,abrupt,108,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.0976999999693362,recent,A
+130100,abrupt,108,recent_long,What is its current metric?,1,548,0.46484375,1,0,0.24370000028284267,recent,A
+130100,abrupt,108,tfidf,What is its current metric?,0,222,-0.216796875,0,0,6.151399998998386,recent,A
+130100,abrupt,108,resolved_tfidf,What is its current metric?,1,204,0.80078125,1,0,13.244699999631848,recent,A
+130100,abrupt,109,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.09669999963080045,recent,A
+130100,abrupt,109,recent_long,What is its current evaluation measure?,1,550,0.462890625,1,0,0.2345000011700904,recent,A
+130100,abrupt,109,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,7.837899998776265,recent,A
+130100,abrupt,109,resolved_tfidf,What is its current evaluation measure?,1,206,0.798828125,1,0,11.361099999703583,recent,A
+130100,abrupt,110,recent_short,What is P6 current data source?,0,84,-0.08203125,0,0,0.14000000010128133,historical,A
+130100,abrupt,110,recent_long,What is P6 current data source?,0,549,-0.5361328125,0,0,0.23370000053546391,historical,A
+130100,abrupt,110,tfidf,What is P6 current data source?,1,231,0.7744140625,1,0,8.16339999983029,historical,A
+130100,abrupt,110,resolved_tfidf,What is P6 current data source?,1,192,0.8125,1,0,12.387499999022111,historical,A
+130100,abrupt,111,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.15499999972234946,recent,A
+130100,abrupt,111,recent_long,What is its current deadline?,1,547,0.4658203125,1,0,0.26650000108929817,recent,A
+130100,abrupt,111,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,6.480500000179745,recent,A
+130100,abrupt,111,resolved_tfidf,What is its current deadline?,1,238,0.767578125,1,0,13.833700000759563,recent,A
+130100,abrupt,112,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.09359999967273325,recent,A
+130100,abrupt,112,recent_long,What is its current deadline?,1,546,0.466796875,1,0,0.23220000002766028,recent,A
+130100,abrupt,112,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,7.36739999956626,recent,A
+130100,abrupt,112,resolved_tfidf,What is its current deadline?,1,212,0.79296875,1,0,11.792700001024059,recent,A
+130100,abrupt,113,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.09590000081516337,recent,A
+130100,abrupt,113,recent_long,What is its current metric?,1,546,0.466796875,1,0,0.23399999918183312,recent,A
+130100,abrupt,113,tfidf,What is its current metric?,0,222,-0.216796875,0,0,7.901199998741504,recent,A
+130100,abrupt,113,resolved_tfidf,What is its current metric?,1,216,0.7890625,1,0,13.263200000437791,recent,A
+130100,abrupt,114,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.0959999997576233,recent,A
+130100,abrupt,114,recent_long,What is its current dataset?,1,546,0.466796875,1,0,0.23299999884329736,recent,A
+130100,abrupt,114,tfidf,What is its current dataset?,0,222,-0.216796875,1,0,6.156800000098883,recent,A
+130100,abrupt,114,resolved_tfidf,What is its current dataset?,1,190,0.814453125,1,0,13.088000001516775,recent,A
+130100,abrupt,115,recent_short,What is P5 current dataset?,0,84,-0.08203125,0,0,0.09850000060396269,historical,A
+130100,abrupt,115,recent_long,What is P5 current dataset?,0,547,-0.5341796875,0,0,0.23220000002766028,historical,A
+130100,abrupt,115,tfidf,What is P5 current dataset?,1,156,0.84765625,0,0,7.40369999948598,historical,A
+130100,abrupt,115,resolved_tfidf,What is P5 current dataset?,1,192,0.8125,1,0,10.908799999015173,historical,A
+130100,abrupt,116,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.09660000068834051,recent,A
+130100,abrupt,116,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.23520000104326755,recent,A
+130100,abrupt,116,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,8.294699999169097,recent,A
+130100,abrupt,116,resolved_tfidf,What is its current evaluation measure?,0,236,-0.23046875,0,1,13.663600000654696,recent,A
+130100,abrupt,117,recent_short,What is P5 current dataset?,0,83,-0.0810546875,0,0,0.09809999937715475,historical,A
+130100,abrupt,117,recent_long,What is P5 current dataset?,0,547,-0.5341796875,0,0,0.24599999960628338,historical,A
+130100,abrupt,117,tfidf,What is P5 current dataset?,1,156,0.84765625,0,0,6.862600001113606,historical,A
+130100,abrupt,117,resolved_tfidf,What is P5 current dataset?,1,192,0.8125,1,0,14.377299999978277,historical,A
+130100,abrupt,118,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.09830000090005342,recent,A
+130100,abrupt,118,recent_long,What is its current metric?,1,547,0.4658203125,1,0,0.27349999982106965,recent,A
+130100,abrupt,118,tfidf,What is its current metric?,0,222,-0.216796875,1,0,8.442700000159675,recent,A
+130100,abrupt,118,resolved_tfidf,What is its current metric?,1,214,0.791015625,1,0,13.517999999749009,recent,A
+130100,abrupt,119,recent_short,What is P5 current language?,0,84,-0.08203125,0,0,0.14010000086273067,historical,A
+130100,abrupt,119,recent_long,What is P5 current language?,0,547,-0.5341796875,0,0,0.34190000042144675,historical,A
+130100,abrupt,119,tfidf,What is P5 current language?,1,215,0.7900390625,1,0,8.246700001109275,historical,A
+130100,abrupt,119,resolved_tfidf,What is P5 current language?,1,215,0.7900390625,1,0,13.266599999042228,historical,A
+130100,abrupt,120,recent_short,What is its current language?,1,84,0.91796875,1,0,0.1049999991664663,recent,A
+130100,abrupt,120,recent_long,What is its current language?,1,547,0.4658203125,1,0,0.2392999995208811,recent,A
+130100,abrupt,120,tfidf,What is its current language?,0,222,-0.216796875,0,0,8.742600000914535,recent,A
+130100,abrupt,120,resolved_tfidf,What is its current language?,1,239,0.7666015625,1,0,13.80090000020573,recent,A
+130100,abrupt,121,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.1644000003580004,recent,A
+130100,abrupt,121,recent_long,What is its current coding language?,1,548,0.46484375,1,0,0.32730000020819716,recent,A
+130100,abrupt,121,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,7.014200000412529,recent,A
+130100,abrupt,121,resolved_tfidf,What is its current coding language?,1,191,0.8134765625,1,0,14.426600000660983,recent,A
+130100,abrupt,122,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.10000000111176632,recent,A
+130100,abrupt,122,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.234499999351101,recent,A
+130100,abrupt,122,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,7.493700000850367,recent,A
+130100,abrupt,122,resolved_tfidf,What is its current evaluation measure?,1,236,0.76953125,1,0,14.19999999961874,recent,A
+130100,abrupt,123,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.10569999903964344,recent,A
+130100,abrupt,123,recent_long,What is its current deadline?,1,548,0.46484375,1,0,0.2457999999023741,recent,A
+130100,abrupt,123,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,7.661100000404986,recent,A
+130100,abrupt,123,resolved_tfidf,What is its current deadline?,1,179,0.8251953125,1,0,13.683500001206994,recent,A
+130100,abrupt,124,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.10450000081618782,recent,A
+130100,abrupt,124,recent_long,What is its current metric?,1,549,0.4638671875,1,0,0.24569999914092477,recent,A
+130100,abrupt,124,tfidf,What is its current metric?,0,222,-0.216796875,0,0,7.135500000003958,recent,A
+130100,abrupt,124,resolved_tfidf,What is its current metric?,1,240,0.765625,1,0,16.12139999997453,recent,A
+130100,abrupt,125,recent_short,What is its current due date?,1,85,0.9169921875,1,0,0.1112000009015901,recent,A
+130100,abrupt,125,recent_long,What is its current due date?,1,551,0.4619140625,1,0,0.2569999996921979,recent,A
+130100,abrupt,125,tfidf,What is its current due date?,0,231,-0.2255859375,1,0,7.774600000630016,recent,A
+130100,abrupt,125,resolved_tfidf,What is its current due date?,1,192,0.8125,1,0,14.832700000624754,recent,A
+130100,abrupt,126,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.10789999942062423,recent,A
+130100,abrupt,126,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.2513999988877913,recent,A
+130100,abrupt,126,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,7.092599998941296,recent,A
+130100,abrupt,126,resolved_tfidf,What is its current coding language?,1,204,0.80078125,1,0,14.140299999780837,recent,A
+130100,abrupt,127,recent_short,What is P1 current language?,0,84,-0.08203125,0,0,0.10919999840552919,historical,A
+130100,abrupt,127,recent_long,What is P1 current language?,0,549,-0.5361328125,0,0,0.25009999990288634,historical,A
+130100,abrupt,127,tfidf,What is P1 current language?,1,222,0.783203125,1,0,7.850500000131433,historical,A
+130100,abrupt,127,resolved_tfidf,What is P1 current language?,1,222,0.783203125,1,0,13.236100001449813,historical,A
+130100,abrupt,128,recent_short,What is its current dataset?,1,84,0.91796875,1,0,0.12269999933778308,recent,A
+130100,abrupt,128,recent_long,What is its current dataset?,1,550,0.462890625,1,0,0.25100000129896216,recent,A
+130100,abrupt,128,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,7.965200000398909,recent,A
+130100,abrupt,128,resolved_tfidf,What is its current dataset?,1,204,0.80078125,1,0,15.860699999393546,recent,A
+130100,abrupt,129,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.10819999988598283,recent,A
+130100,abrupt,129,recent_long,What is its current coding language?,1,542,0.470703125,1,0,0.2533999995648628,recent,A
+130100,abrupt,129,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,8.872400001564529,recent,A
+130100,abrupt,129,resolved_tfidf,What is its current coding language?,1,192,0.8125,1,0,15.423200000441284,recent,A
+130100,abrupt,130,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.1097999993362464,recent,A
+130100,abrupt,130,recent_long,What is its current evaluation measure?,1,542,0.470703125,1,0,0.24599999960628338,recent,A
+130100,abrupt,130,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,1,0,6.930200001079356,recent,A
+130100,abrupt,130,resolved_tfidf,What is its current evaluation measure?,1,239,0.7666015625,1,0,14.29669999924954,recent,A
+130100,abrupt,131,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.11020000056305435,recent,A
+130100,abrupt,131,recent_long,What is its current metric?,1,550,0.462890625,1,0,0.2542000001994893,recent,A
+130100,abrupt,131,tfidf,What is its current metric?,0,222,-0.216796875,0,0,8.284600000479259,recent,A
+130100,abrupt,131,resolved_tfidf,What is its current metric?,1,237,0.7685546875,1,0,14.252299999498064,recent,A
+130100,abrupt,132,recent_short,What is P1 current deadline?,0,84,-0.08203125,0,0,0.11040000026696362,historical,A
+130100,abrupt,132,recent_long,What is P1 current deadline?,0,541,-0.5283203125,0,0,0.24730000041017774,historical,A
+130100,abrupt,132,tfidf,What is P1 current deadline?,1,167,0.8369140625,0,0,6.945200000700424,historical,A
+130100,abrupt,132,resolved_tfidf,What is P1 current deadline?,1,191,0.8134765625,1,0,15.850300000238349,historical,A
+130100,abrupt,133,recent_short,What is P1 current evaluation measure?,0,84,-0.08203125,0,0,0.11410000115574803,historical,A
+130100,abrupt,133,recent_long,What is P1 current evaluation measure?,0,542,-0.529296875,0,0,0.25070000083360355,historical,A
+130100,abrupt,133,tfidf,What is P1 current evaluation measure?,1,231,0.7744140625,0,0,8.393899999646237,historical,A
+130100,abrupt,133,resolved_tfidf,What is P1 current evaluation measure?,1,224,0.78125,1,0,14.281600000686012,historical,A
+130100,abrupt,134,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.16739999955461826,recent,A
+130100,abrupt,134,recent_long,What is its current metric?,1,550,0.462890625,1,0,0.3932999989046948,recent,A
+130100,abrupt,134,tfidf,What is its current metric?,0,222,-0.216796875,1,0,8.560899999793037,recent,A
+130100,abrupt,134,resolved_tfidf,What is its current metric?,1,238,0.767578125,1,0,15.981399999873247,recent,A
+130100,abrupt,135,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.11319999975967221,recent,A
+130100,abrupt,135,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.25769999956537504,recent,A
+130100,abrupt,135,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,9.093599999687285,recent,A
+130100,abrupt,135,resolved_tfidf,What is its current coding language?,1,214,0.791015625,1,0,14.792199999646982,recent,A
+130100,abrupt,136,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.11469999844848644,recent,A
+130100,abrupt,136,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.30300000071292743,recent,A
+130100,abrupt,136,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,7.2269000011147,recent,A
+130100,abrupt,136,resolved_tfidf,What is its current coding language?,1,204,0.80078125,1,0,16.196599999602768,recent,A
+130100,abrupt,137,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.1143000008596573,recent,A
+130100,abrupt,137,recent_long,What is its current metric?,1,550,0.462890625,1,0,0.25659999846538994,recent,A
+130100,abrupt,137,tfidf,What is its current metric?,0,222,-0.216796875,0,0,8.510600000590784,recent,A
+130100,abrupt,137,resolved_tfidf,What is its current metric?,1,236,0.76953125,1,0,15.734299999166979,recent,A
+130100,abrupt,138,recent_short,What is its current data source?,1,84,0.91796875,1,0,0.11389999963284936,recent,A
+130100,abrupt,138,recent_long,What is its current data source?,1,550,0.462890625,1,0,0.264600001173676,recent,A
+130100,abrupt,138,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,7.07460000012361,recent,A
+130100,abrupt,138,resolved_tfidf,What is its current data source?,1,203,0.8017578125,1,0,14.84600000003411,recent,A
+130100,abrupt,139,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.11340000128257088,recent,A
+130100,abrupt,139,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.25409999943803996,recent,A
+130100,abrupt,139,tfidf,What is its current coding language?,0,231,-0.2255859375,1,0,10.334500000681146,recent,A
+130100,abrupt,139,resolved_tfidf,What is its current coding language?,1,205,0.7998046875,1,0,16.578900000240537,recent,A
+130100,abrupt,140,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.20359999871288892,recent,A
+130100,abrupt,140,recent_long,What is its current coding language?,1,549,0.4638671875,1,0,0.2727999999478925,recent,A
+130100,abrupt,140,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,9.875400000964873,recent,A
+130100,abrupt,140,resolved_tfidf,What is its current coding language?,1,215,0.7900390625,1,0,16.10870000149589,recent,A
+130100,abrupt,141,recent_short,What is P1 current due date?,0,84,-0.08203125,0,0,0.1446999995096121,historical,A
+130100,abrupt,141,recent_long,What is P1 current due date?,0,548,-0.53515625,0,0,0.25769999956537504,historical,A
+130100,abrupt,141,tfidf,What is P1 current due date?,1,231,0.7744140625,1,0,7.4206000008416595,historical,A
+130100,abrupt,141,resolved_tfidf,What is P1 current due date?,1,192,0.8125,1,0,14.371599998412421,historical,A
+130100,abrupt,142,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.15859999984968454,recent,A
+130100,abrupt,142,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.25970000024244655,recent,A
+130100,abrupt,142,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,8.16109999868786,recent,A
+130100,abrupt,142,resolved_tfidf,What is its current data source?,1,238,0.767578125,1,0,16.010399998776847,recent,A
+130100,abrupt,143,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.11610000001383014,recent,A
+130100,abrupt,143,recent_long,What is its current evaluation measure?,1,548,0.46484375,1,0,0.2562000008765608,recent,A
+130100,abrupt,143,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,7.994499999767868,recent,A
+130100,abrupt,143,resolved_tfidf,What is its current evaluation measure?,1,237,0.7685546875,1,0,16.06790000005276,recent,A
+130100,abrupt,144,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.11649999942164868,recent,A
+130100,abrupt,144,recent_long,What is its current metric?,1,547,0.4658203125,1,0,0.2578000003268244,recent,A
+130100,abrupt,144,tfidf,What is its current metric?,0,222,-0.216796875,0,0,131.9640999990952,recent,A
+130100,abrupt,144,resolved_tfidf,What is its current metric?,1,239,0.7666015625,1,0,50.81079999945359,recent,A
+130100,abrupt,145,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.21020000167482067,recent,A
+130100,abrupt,145,recent_long,What is its current metric?,1,548,0.46484375,1,0,1.0736999993241625,recent,A
+130100,abrupt,145,tfidf,What is its current metric?,0,222,-0.216796875,0,0,19.117199999527656,recent,A
+130100,abrupt,145,resolved_tfidf,What is its current metric?,0,236,-0.23046875,0,1,25.40240000053018,recent,A
+130100,abrupt,146,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.13339999895833898,recent,A
+130100,abrupt,146,recent_long,What is its current data source?,1,550,0.462890625,1,0,0.26929999876301736,recent,A
+130100,abrupt,146,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,8.446600000752369,recent,A
+130100,abrupt,146,resolved_tfidf,What is its current data source?,1,239,0.7666015625,1,0,15.229799999360694,recent,A
+130100,abrupt,147,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.34130000130971894,recent,A
+130100,abrupt,147,recent_long,What is its current coding language?,1,549,0.4638671875,1,0,0.5261000005702954,recent,A
+130100,abrupt,147,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,8.189500000298722,recent,A
+130100,abrupt,147,resolved_tfidf,What is its current coding language?,1,238,0.767578125,1,0,15.564100000119652,recent,A
+130100,abrupt,148,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.12340000102994964,recent,A
+130100,abrupt,148,recent_long,What is its current data source?,1,549,0.4638671875,1,0,0.26819999948202167,recent,A
+130100,abrupt,148,tfidf,What is its current data source?,0,231,-0.2255859375,1,0,9.567200000674347,recent,A
+130100,abrupt,148,resolved_tfidf,What is its current data source?,1,215,0.7900390625,1,0,15.567200000077719,recent,A
+130100,abrupt,149,recent_short,What is its current evaluation measure?,1,85,0.9169921875,1,0,0.12680000145337544,recent,A
+130100,abrupt,149,recent_long,What is its current evaluation measure?,1,550,0.462890625,1,0,0.2709000000322703,recent,A
+130100,abrupt,149,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,1,0,7.736999999906402,recent,A
+130100,abrupt,149,resolved_tfidf,What is its current evaluation measure?,1,238,0.767578125,1,0,16.816999999718973,recent,A
+130100,abrupt,150,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.1126000006479444,recent,B
+130100,abrupt,150,recent_long,What is its current dataset?,1,548,0.46484375,1,0,0.24610000036773272,recent,B
+130100,abrupt,150,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,9.2690000001312,recent,B
+130100,abrupt,150,resolved_tfidf,What is its current dataset?,1,201,0.8037109375,1,0,15.916899999865564,recent,B
+130100,abrupt,151,recent_short,What is P5 current due date?,0,84,-0.08203125,0,0,0.11649999942164868,historical,B
+130100,abrupt,151,recent_long,What is P5 current due date?,0,549,-0.5361328125,0,0,0.2507999997760635,historical,B
+130100,abrupt,151,tfidf,What is P5 current due date?,1,231,0.7744140625,1,0,9.105699999054195,historical,B
+130100,abrupt,151,resolved_tfidf,What is P5 current due date?,1,192,0.8125,1,0,16.526999999769032,historical,B
+130100,abrupt,152,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.2485999993950827,recent,B
+130100,abrupt,152,recent_long,What is its current deadline?,1,549,0.4638671875,1,0,0.39310000101977494,recent,B
+130100,abrupt,152,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,7.6485999998112675,recent,B
+130100,abrupt,152,resolved_tfidf,What is its current deadline?,1,239,0.7666015625,1,0,20.14910000070813,recent,B
+130100,abrupt,153,recent_short,What is P4 current language?,0,83,-0.0810546875,0,0,0.2990000011777738,historical,B
+130100,abrupt,153,recent_long,What is P4 current language?,0,548,-0.53515625,0,0,0.6565000003320165,historical,B
+130100,abrupt,153,tfidf,What is P4 current language?,1,224,0.78125,1,0,8.982000001196866,historical,B
+130100,abrupt,153,resolved_tfidf,What is P4 current language?,1,224,0.78125,1,0,16.32669999889913,historical,B
+130100,abrupt,154,recent_short,What is P3 current language?,0,84,-0.08203125,0,0,0.12349999997240957,historical,B
+130100,abrupt,154,recent_long,What is P3 current language?,0,549,-0.5361328125,0,0,0.2643000007083174,historical,B
+130100,abrupt,154,tfidf,What is P3 current language?,1,203,0.8017578125,1,0,9.216000000378699,historical,B
+130100,abrupt,154,resolved_tfidf,What is P3 current language?,1,203,0.8017578125,1,0,15.251799999532523,historical,B
+130100,abrupt,155,recent_short,What is P2 current data source?,0,85,-0.0830078125,0,0,0.14539999938278925,historical,B
+130100,abrupt,155,recent_long,What is P2 current data source?,1,551,0.4619140625,1,0,0.26620000062393956,historical,B
+130100,abrupt,155,tfidf,What is P2 current data source?,1,231,0.7744140625,1,0,7.874700000684243,historical,B
+130100,abrupt,155,resolved_tfidf,What is P2 current data source?,1,227,0.7783203125,1,0,16.7037999999593,historical,B
+130100,abrupt,156,recent_short,What is P3 current due date?,0,84,-0.08203125,0,0,0.1472000003559515,historical,B
+130100,abrupt,156,recent_long,What is P3 current due date?,0,550,-0.537109375,0,0,0.268300000243471,historical,B
+130100,abrupt,156,tfidf,What is P3 current due date?,1,231,0.7744140625,0,0,8.428200000707875,historical,B
+130100,abrupt,156,resolved_tfidf,What is P3 current due date?,1,170,0.833984375,1,0,16.55879999998433,historical,B
+130100,abrupt,157,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.1252999991265824,recent,B
+130100,abrupt,157,recent_long,What is its current deadline?,1,548,0.46484375,1,0,0.2674000006663846,recent,B
+130100,abrupt,157,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,9.188400001221453,recent,B
+130100,abrupt,157,resolved_tfidf,What is its current deadline?,1,236,0.76953125,1,0,18.275200000061886,recent,B
+130100,abrupt,158,recent_short,What is P3 current dataset?,0,84,-0.08203125,0,0,0.12620000052265823,historical,B
+130100,abrupt,158,recent_long,What is P3 current dataset?,1,549,0.4638671875,1,0,0.2678000000742031,historical,B
+130100,abrupt,158,tfidf,What is P3 current dataset?,1,189,0.8154296875,1,0,8.871800000633812,historical,B
+130100,abrupt,158,resolved_tfidf,What is P3 current dataset?,1,201,0.8037109375,1,0,17.791100000977167,historical,B
+130100,abrupt,159,recent_short,What is P1 current evaluation measure?,0,85,-0.0830078125,0,0,0.1494999996793922,historical,B
+130100,abrupt,159,recent_long,What is P1 current evaluation measure?,1,550,0.462890625,1,0,0.32079999982670415,historical,B
+130100,abrupt,159,tfidf,What is P1 current evaluation measure?,1,231,0.7744140625,1,0,8.026999999856343,historical,B
+130100,abrupt,159,resolved_tfidf,What is P1 current evaluation measure?,1,226,0.779296875,1,0,15.308200001527439,historical,B
+130100,abrupt,160,recent_short,What is P1 current metric?,0,83,-0.0810546875,0,0,0.1260999997612089,historical,B
+130100,abrupt,160,recent_long,What is P1 current metric?,0,548,-0.53515625,0,0,0.27880000016011763,historical,B
+130100,abrupt,160,tfidf,What is P1 current metric?,1,222,0.783203125,0,0,9.4771000003675,historical,B
+130100,abrupt,160,resolved_tfidf,What is P1 current metric?,1,225,0.7802734375,1,0,15.02749999963271,historical,B
+130100,abrupt,161,recent_short,What is P3 current language?,0,84,-0.08203125,0,0,0.12710000009974465,historical,B
+130100,abrupt,161,recent_long,What is P3 current language?,0,549,-0.5361328125,0,0,0.26840000100492034,historical,B
+130100,abrupt,161,tfidf,What is P3 current language?,1,203,0.8017578125,1,0,7.697200000620796,historical,B
+130100,abrupt,161,resolved_tfidf,What is P3 current language?,1,203,0.8017578125,1,0,16.83729999967909,historical,B
+130100,abrupt,162,recent_short,What is P4 current metric?,0,84,-0.08203125,0,0,0.12339999921096023,historical,B
+130100,abrupt,162,recent_long,What is P4 current metric?,1,550,0.462890625,1,0,0.369400000636233,historical,B
+130100,abrupt,162,tfidf,What is P4 current metric?,0,200,-0.1953125,0,1,8.227899999837973,historical,B
+130100,abrupt,162,resolved_tfidf,What is P4 current metric?,0,224,-0.21875,0,1,16.061899999840534,historical,B
+130100,abrupt,163,recent_short,What is P5 current deadline?,0,84,-0.08203125,0,0,0.23499999952036887,historical,B
+130100,abrupt,163,recent_long,What is P5 current deadline?,1,550,0.462890625,1,0,0.2750999992713332,historical,B
+130100,abrupt,163,tfidf,What is P5 current deadline?,1,178,0.826171875,1,0,9.07060000099591,historical,B
+130100,abrupt,163,resolved_tfidf,What is P5 current deadline?,1,202,0.802734375,1,0,16.42569999967236,historical,B
+130100,abrupt,164,recent_short,What is P2 current dataset?,0,83,-0.0810546875,0,0,0.19210000027669594,historical,B
+130100,abrupt,164,recent_long,What is P2 current dataset?,0,550,-0.537109375,0,0,0.27749999935622327,historical,B
+130100,abrupt,164,tfidf,What is P2 current dataset?,0,178,-0.173828125,0,1,8.024999999179272,historical,B
+130100,abrupt,164,resolved_tfidf,What is P2 current dataset?,1,226,0.779296875,1,0,15.378399999463,historical,B
+130100,abrupt,165,recent_short,What is P6 current deadline?,0,83,-0.0810546875,0,0,0.12990000141144264,historical,B
+130100,abrupt,165,recent_long,What is P6 current deadline?,1,549,0.4638671875,1,0,0.27120000049762893,historical,B
+130100,abrupt,165,tfidf,What is P6 current deadline?,1,211,0.7939453125,0,0,10.237299999062088,historical,B
+130100,abrupt,165,resolved_tfidf,What is P6 current deadline?,1,225,0.7802734375,1,0,16.823899999508285,historical,B
+130100,abrupt,166,recent_short,What is P1 current due date?,0,84,-0.08203125,0,0,0.130899999930989,historical,B
+130100,abrupt,166,recent_long,What is P1 current due date?,0,549,-0.5361328125,0,0,0.27179999960935675,historical,B
+130100,abrupt,166,tfidf,What is P1 current due date?,1,231,0.7744140625,1,0,11.936500000956585,historical,B
+130100,abrupt,166,resolved_tfidf,What is P1 current due date?,1,192,0.8125,1,0,18.733299999439623,historical,B
+130100,abrupt,167,recent_short,What is P5 current evaluation measure?,0,84,-0.08203125,0,0,0.13609999950858764,historical,B
+130100,abrupt,167,recent_long,What is P5 current evaluation measure?,0,549,-0.5361328125,0,0,0.2958999994007172,historical,B
+130100,abrupt,167,tfidf,What is P5 current evaluation measure?,0,231,-0.2255859375,0,0,11.265499999353779,historical,B
+130100,abrupt,167,resolved_tfidf,What is P5 current evaluation measure?,1,179,0.8251953125,1,0,16.750599999795668,historical,B
+130100,abrupt,168,recent_short,What is P6 current due date?,0,85,-0.0830078125,0,0,0.1343000003544148,historical,B
+130100,abrupt,168,recent_long,What is P6 current due date?,1,550,0.462890625,1,0,0.3316000002087094,historical,B
+130100,abrupt,168,tfidf,What is P6 current due date?,1,231,0.7744140625,1,0,8.165100000042003,historical,B
+130100,abrupt,168,resolved_tfidf,What is P6 current due date?,1,226,0.779296875,1,0,17.704100000628387,historical,B
+130100,abrupt,169,recent_short,What is P3 current dataset?,0,84,-0.08203125,0,0,0.31570000101055484,historical,B
+130100,abrupt,169,recent_long,What is P3 current dataset?,1,549,0.4638671875,1,0,0.46459999975922983,historical,B
+130100,abrupt,169,tfidf,What is P3 current dataset?,1,200,0.8046875,1,0,9.07069999993837,historical,B
+130100,abrupt,169,resolved_tfidf,What is P3 current dataset?,1,212,0.79296875,1,0,17.545499998959713,historical,B
+130100,abrupt,170,recent_short,What is P5 current due date?,0,84,-0.08203125,0,0,0.13729999955103267,historical,B
+130100,abrupt,170,recent_long,What is P5 current due date?,0,549,-0.5361328125,0,0,0.27690000024449546,historical,B
+130100,abrupt,170,tfidf,What is P5 current due date?,1,231,0.7744140625,0,0,10.071700000480632,historical,B
+130100,abrupt,170,resolved_tfidf,What is P5 current due date?,1,203,0.8017578125,1,0,18.89339999979711,historical,B
+130100,abrupt,171,recent_short,What is P3 current coding language?,0,85,-0.0830078125,0,0,0.14620000001741573,historical,B
+130100,abrupt,171,recent_long,What is P3 current coding language?,0,550,-0.537109375,0,0,0.380899999072426,historical,B
+130100,abrupt,171,tfidf,What is P3 current coding language?,1,231,0.7744140625,1,0,10.103000000526663,historical,B
+130100,abrupt,171,resolved_tfidf,What is P3 current coding language?,1,204,0.80078125,1,0,18.2306000006065,historical,B
+130100,abrupt,172,recent_short,What is its current coding language?,1,85,0.9169921875,1,0,0.1351000009890413,recent,B
+130100,abrupt,172,recent_long,What is its current coding language?,1,550,0.462890625,1,0,0.2750000003288733,recent,B
+130100,abrupt,172,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,10.23180000083812,recent,B
+130100,abrupt,172,resolved_tfidf,What is its current coding language?,0,237,-0.2314453125,0,1,19.487300000037067,recent,B
+130100,abrupt,173,recent_short,What is P3 current dataset?,0,84,-0.08203125,0,0,0.13790000048174988,historical,B
+130100,abrupt,173,recent_long,What is P3 current dataset?,1,549,0.4638671875,1,0,0.2800999991450226,historical,B
+130100,abrupt,173,tfidf,What is P3 current dataset?,1,211,0.7939453125,1,0,8.358699999007513,historical,B
+130100,abrupt,173,resolved_tfidf,What is P3 current dataset?,1,223,0.7822265625,1,0,16.083000000435277,historical,B
+130100,abrupt,174,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.5559999990509823,recent,B
+130100,abrupt,174,recent_long,What is its current metric?,1,549,0.4638671875,1,0,0.45540000064647757,recent,B
+130100,abrupt,174,tfidf,What is its current metric?,0,222,-0.216796875,0,0,8.643000001029577,recent,B
+130100,abrupt,174,resolved_tfidf,What is its current metric?,1,190,0.814453125,1,0,19.20590000008815,recent,B
+130100,abrupt,175,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.3256999989389442,recent,B
+130100,abrupt,175,recent_long,What is its current due date?,1,550,0.462890625,1,0,1.0662000004231231,recent,B
+130100,abrupt,175,tfidf,What is its current due date?,0,231,-0.2255859375,0,0,10.743600001660525,recent,B
+130100,abrupt,175,resolved_tfidf,What is its current due date?,1,214,0.791015625,1,0,18.63699999921664,recent,B
+130100,abrupt,176,recent_short,What is P1 current data source?,0,85,-0.0830078125,0,0,1.6684999991412042,historical,B
+130100,abrupt,176,recent_long,What is P1 current data source?,0,551,-0.5380859375,0,0,2.0215000004100148,historical,B
+130100,abrupt,176,tfidf,What is P1 current data source?,1,231,0.7744140625,1,0,11.675099998683436,historical,B
+130100,abrupt,176,resolved_tfidf,What is P1 current data source?,1,226,0.779296875,1,0,18.07079999889538,historical,B
+130100,abrupt,177,recent_short,What is P1 current metric?,0,83,-0.0810546875,0,0,0.14069999997445848,historical,B
+130100,abrupt,177,recent_long,What is P1 current metric?,1,550,0.462890625,1,0,0.2799000012601027,historical,B
+130100,abrupt,177,tfidf,What is P1 current metric?,1,222,0.783203125,1,0,9.446799998841016,historical,B
+130100,abrupt,177,resolved_tfidf,What is P1 current metric?,1,225,0.7802734375,1,0,21.78270000149496,historical,B
+130100,abrupt,178,recent_short,What is P5 current language?,0,83,-0.0810546875,0,0,0.14929999997548293,historical,B
+130100,abrupt,178,recent_long,What is P5 current language?,0,550,-0.537109375,0,0,0.32720000126573723,historical,B
+130100,abrupt,178,tfidf,What is P5 current language?,1,227,0.7783203125,1,0,9.638999999879161,historical,B
+130100,abrupt,178,resolved_tfidf,What is P5 current language?,1,227,0.7783203125,1,0,18.908900001406437,historical,B
+130100,abrupt,179,recent_short,What is P4 current metric?,0,83,-0.0810546875,0,0,0.42519999988144264,historical,B
+130100,abrupt,179,recent_long,What is P4 current metric?,1,549,0.4638671875,1,0,0.519900000654161,historical,B
+130100,abrupt,179,tfidf,What is P4 current metric?,0,200,-0.1953125,0,1,9.819200000492856,historical,B
+130100,abrupt,179,resolved_tfidf,What is P4 current metric?,0,224,-0.21875,0,1,24.602199999208096,historical,B
+130100,abrupt,180,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.2843999991455348,recent,B
+130100,abrupt,180,recent_long,What is its current metric?,1,549,0.4638671875,1,0,1.2415000001055887,recent,B
+130100,abrupt,180,tfidf,What is its current metric?,0,222,-0.216796875,0,0,26.544899999862537,recent,B
+130100,abrupt,180,resolved_tfidf,What is its current metric?,0,236,-0.23046875,0,1,142.2430999991775,recent,B
+130100,abrupt,181,recent_short,What is P5 current dataset?,0,83,-0.0810546875,0,0,0.2578000003268244,historical,B
+130100,abrupt,181,recent_long,What is P5 current dataset?,0,549,-0.5361328125,0,0,2.3290000008273637,historical,B
+130100,abrupt,181,tfidf,What is P5 current dataset?,1,167,0.8369140625,1,0,19.204700000045705,historical,B
+130100,abrupt,181,resolved_tfidf,What is P5 current dataset?,1,215,0.7900390625,1,0,19.856199998685042,historical,B
+130100,abrupt,182,recent_short,What is P3 current deadline?,0,83,-0.0810546875,0,0,0.14279999959398992,historical,B
+130100,abrupt,182,recent_long,What is P3 current deadline?,0,548,-0.53515625,0,0,0.35600000046542846,historical,B
+130100,abrupt,182,tfidf,What is P3 current deadline?,1,145,0.8583984375,1,0,11.072300001615076,historical,B
+130100,abrupt,182,resolved_tfidf,What is P3 current deadline?,1,169,0.8349609375,1,0,17.861400001493166,historical,B
+130100,abrupt,183,recent_short,What is P3 current data source?,0,85,-0.0830078125,0,0,0.2963999995699851,historical,B
+130100,abrupt,183,recent_long,What is P3 current data source?,0,549,-0.5361328125,0,0,0.4970999998477055,historical,B
+130100,abrupt,183,tfidf,What is P3 current data source?,0,231,-0.2255859375,0,1,12.42629999978817,historical,B
+130100,abrupt,183,resolved_tfidf,What is P3 current data source?,1,224,0.78125,1,0,21.03010000064387,historical,B
+130100,abrupt,184,recent_short,What is its current metric?,1,84,0.91796875,1,0,0.15520000124524813,recent,B
+130100,abrupt,184,recent_long,What is its current metric?,1,548,0.46484375,1,0,0.2984000002470566,recent,B
+130100,abrupt,184,tfidf,What is its current metric?,0,222,-0.216796875,0,0,11.745499999960884,recent,B
+130100,abrupt,184,resolved_tfidf,What is its current metric?,1,202,0.802734375,1,0,19.66790000005858,recent,B
+130100,abrupt,185,recent_short,What is P1 current coding language?,0,84,-0.08203125,0,0,0.15180000082182232,historical,B
+130100,abrupt,185,recent_long,What is P1 current coding language?,0,548,-0.53515625,0,0,0.2905000001192093,historical,B
+130100,abrupt,185,tfidf,What is P1 current coding language?,1,231,0.7744140625,1,0,12.980900000911788,historical,B
+130100,abrupt,185,resolved_tfidf,What is P1 current coding language?,1,225,0.7802734375,1,0,18.708600000536535,historical,B
+130100,abrupt,186,recent_short,What is P3 current metric?,0,84,-0.08203125,0,0,0.14630000077886507,historical,B
+130100,abrupt,186,recent_long,What is P3 current metric?,0,548,-0.53515625,0,0,0.2902999985963106,historical,B
+130100,abrupt,186,tfidf,What is P3 current metric?,1,189,0.8154296875,1,0,13.08439999957045,historical,B
+130100,abrupt,186,resolved_tfidf,What is P3 current metric?,1,226,0.779296875,1,0,18.139900001187925,historical,B
+130100,abrupt,187,recent_short,What is P4 current dataset?,0,83,-0.0810546875,0,0,0.14620000001741573,historical,B
+130100,abrupt,187,recent_long,What is P4 current dataset?,1,547,0.4658203125,1,0,0.28899999961140566,historical,B
+130100,abrupt,187,tfidf,What is P4 current dataset?,1,222,0.783203125,1,0,15.870600000198465,historical,B
+130100,abrupt,187,resolved_tfidf,What is P4 current dataset?,1,225,0.7802734375,1,0,23.821799999495852,historical,B
+130100,abrupt,188,recent_short,What is P1 current due date?,0,84,-0.08203125,0,0,0.29529999847,historical,B
+130100,abrupt,188,recent_long,What is P1 current due date?,0,548,-0.53515625,0,0,0.35879999995813705,historical,B
+130100,abrupt,188,tfidf,What is P1 current due date?,1,231,0.7744140625,1,0,11.001700000633718,historical,B
+130100,abrupt,188,resolved_tfidf,What is P1 current due date?,1,192,0.8125,1,0,20.803800000066985,historical,B
+130100,abrupt,189,recent_short,What is P5 current deadline?,0,84,-0.08203125,0,0,0.1691999987087911,historical,B
+130100,abrupt,189,recent_long,What is P5 current deadline?,0,548,-0.53515625,0,0,0.41649999911896884,historical,B
+130100,abrupt,189,tfidf,What is P5 current deadline?,1,189,0.8154296875,1,0,11.539700000867015,historical,B
+130100,abrupt,189,resolved_tfidf,What is P5 current deadline?,1,213,0.7919921875,1,0,21.51389999926323,historical,B
+130100,abrupt,190,recent_short,What is P1 current dataset?,0,83,-0.0810546875,0,0,0.1458000006095972,historical,B
+130100,abrupt,190,recent_long,What is P1 current dataset?,1,548,0.46484375,1,0,0.28139999994891696,historical,B
+130100,abrupt,190,tfidf,What is P1 current dataset?,0,189,-0.1845703125,0,1,11.156700000356068,historical,B
+130100,abrupt,190,resolved_tfidf,What is P1 current dataset?,1,227,0.7783203125,1,0,19.616600000517792,historical,B
+130100,abrupt,191,recent_short,What is P2 current dataset?,0,84,-0.08203125,0,0,0.1458000006095972,historical,B
+130100,abrupt,191,recent_long,What is P2 current dataset?,0,548,-0.53515625,0,0,0.31879999914963264,historical,B
+130100,abrupt,191,tfidf,What is P2 current dataset?,0,178,-0.173828125,0,1,10.753400001703994,historical,B
+130100,abrupt,191,resolved_tfidf,What is P2 current dataset?,1,226,0.779296875,1,0,18.870800000513555,historical,B
+130100,abrupt,192,recent_short,What is P6 current due date?,0,84,-0.08203125,0,0,0.1396000006934628,historical,B
+130100,abrupt,192,recent_long,What is P6 current due date?,0,549,-0.5361328125,0,0,0.30950000109442044,historical,B
+130100,abrupt,192,tfidf,What is P6 current due date?,1,231,0.7744140625,1,0,9.898899999825517,historical,B
+130100,abrupt,192,resolved_tfidf,What is P6 current due date?,1,226,0.779296875,1,0,19.48629999969853,historical,B
+130100,abrupt,193,recent_short,What is its current language?,1,84,0.91796875,1,0,0.14430000010179356,recent,B
+130100,abrupt,193,recent_long,What is its current language?,1,549,0.4638671875,1,0,0.28840000049967784,recent,B
+130100,abrupt,193,tfidf,What is its current language?,0,222,-0.216796875,0,0,11.18049999968207,recent,B
+130100,abrupt,193,resolved_tfidf,What is its current language?,1,238,0.767578125,1,0,38.6436999997386,recent,B
+130100,abrupt,194,recent_short,What is P2 current evaluation measure?,0,84,-0.08203125,0,0,0.3150000011373777,historical,B
+130100,abrupt,194,recent_long,What is P2 current evaluation measure?,0,549,-0.5361328125,0,0,0.5450999997265171,historical,B
+130100,abrupt,194,tfidf,What is P2 current evaluation measure?,1,231,0.7744140625,1,0,23.835400001189555,historical,B
+130100,abrupt,194,resolved_tfidf,What is P2 current evaluation measure?,1,228,0.77734375,1,0,26.553200001217192,historical,B
+130100,abrupt,195,recent_short,What is P1 current due date?,0,84,-0.08203125,0,0,0.15010000061010942,historical,B
+130100,abrupt,195,recent_long,What is P1 current due date?,0,548,-0.53515625,0,0,0.32730000020819716,historical,B
+130100,abrupt,195,tfidf,What is P1 current due date?,1,231,0.7744140625,1,0,11.059299999033101,historical,B
+130100,abrupt,195,resolved_tfidf,What is P1 current due date?,1,192,0.8125,1,0,28.737200000250596,historical,B
+130100,abrupt,196,recent_short,What is P5 current language?,0,84,-0.08203125,0,0,0.20089999998162966,historical,B
+130100,abrupt,196,recent_long,What is P5 current language?,1,548,0.46484375,1,0,0.29830000130459666,historical,B
+130100,abrupt,196,tfidf,What is P5 current language?,1,225,0.7802734375,1,0,15.141699999730918,historical,B
+130100,abrupt,196,resolved_tfidf,What is P5 current language?,1,226,0.779296875,1,0,21.743200000855722,historical,B
+130100,abrupt,197,recent_short,What is P2 current data source?,0,84,-0.08203125,0,0,0.16239999968092889,historical,B
+130100,abrupt,197,recent_long,What is P2 current data source?,0,548,-0.53515625,0,0,0.29939999876660295,historical,B
+130100,abrupt,197,tfidf,What is P2 current data source?,1,231,0.7744140625,1,0,14.10299999952258,historical,B
+130100,abrupt,197,resolved_tfidf,What is P2 current data source?,1,227,0.7783203125,1,0,19.548200001736404,historical,B
+130100,abrupt,198,recent_short,What is P2 current coding language?,0,85,-0.0830078125,0,0,0.1567999988765223,historical,B
+130100,abrupt,198,recent_long,What is P2 current coding language?,0,549,-0.5361328125,0,0,0.3001000004587695,historical,B
+130100,abrupt,198,tfidf,What is P2 current coding language?,0,231,-0.2255859375,0,1,10.715099999288213,historical,B
+130100,abrupt,198,resolved_tfidf,What is P2 current coding language?,1,226,0.779296875,1,0,20.585799999025767,historical,B
+130100,abrupt,199,recent_short,What is P1 current coding language?,0,85,-0.0830078125,0,0,0.15460000031453092,historical,B
+130100,abrupt,199,recent_long,What is P1 current coding language?,0,550,-0.537109375,0,0,0.3108000000793254,historical,B
+130100,abrupt,199,tfidf,What is P1 current coding language?,1,231,0.7744140625,0,0,11.275599999862607,historical,B
+130100,abrupt,199,resolved_tfidf,What is P1 current coding language?,0,225,-0.2197265625,0,1,19.07050000045274,historical,B
+130100,abrupt,200,recent_short,What is P6 current due date?,0,84,-0.08203125,0,0,0.1467000001866836,historical,B
+130100,abrupt,200,recent_long,What is P6 current due date?,0,549,-0.5361328125,0,0,0.29630000062752515,historical,B
+130100,abrupt,200,tfidf,What is P6 current due date?,1,231,0.7744140625,1,0,14.364999999088468,historical,B
+130100,abrupt,200,resolved_tfidf,What is P6 current due date?,1,226,0.779296875,1,0,20.877199998722062,historical,B
+130100,abrupt,201,recent_short,What is P5 current metric?,0,84,-0.08203125,0,0,1.1505999991641147,historical,B
+130100,abrupt,201,recent_long,What is P5 current metric?,0,549,-0.5361328125,0,0,0.9715999985928647,historical,B
+130100,abrupt,201,tfidf,What is P5 current metric?,0,178,-0.173828125,0,1,16.581899999437155,historical,B
+130100,abrupt,201,resolved_tfidf,What is P5 current metric?,1,202,0.802734375,1,0,19.965099998444202,historical,B
+130100,abrupt,202,recent_short,What is P2 current metric?,0,84,-0.08203125,0,0,0.14910000027157366,historical,B
+130100,abrupt,202,recent_long,What is P2 current metric?,0,549,-0.5361328125,0,0,0.2973000009660609,historical,B
+130100,abrupt,202,tfidf,What is P2 current metric?,0,167,-0.1630859375,0,1,10.87559999905352,historical,B
+130100,abrupt,202,resolved_tfidf,What is P2 current metric?,1,227,0.7783203125,1,0,19.020400000954396,historical,B
+130100,abrupt,203,recent_short,What is its current dataset?,1,83,0.9189453125,1,0,0.17130000014731195,recent,B
+130100,abrupt,203,recent_long,What is its current dataset?,1,549,0.4638671875,1,0,0.4214000000501983,recent,B
+130100,abrupt,203,tfidf,What is its current dataset?,0,222,-0.216796875,1,0,11.179099999935715,recent,B
+130100,abrupt,203,resolved_tfidf,What is its current dataset?,1,238,0.767578125,1,0,23.343699998804368,recent,B
+130100,abrupt,204,recent_short,What is P6 current deadline?,0,84,-0.08203125,0,0,0.16599999980826396,historical,B
+130100,abrupt,204,recent_long,What is P6 current deadline?,0,549,-0.5361328125,0,0,0.3329999999550637,historical,B
+130100,abrupt,204,tfidf,What is P6 current deadline?,1,211,0.7939453125,0,0,11.626399998931447,historical,B
+130100,abrupt,204,resolved_tfidf,What is P6 current deadline?,1,225,0.7802734375,1,0,20.464999999603606,historical,B
+130100,abrupt,205,recent_short,What is P3 current metric?,0,84,-0.08203125,0,0,0.15830000120331533,historical,B
+130100,abrupt,205,recent_long,What is P3 current metric?,0,550,-0.537109375,0,0,0.2958000004582573,historical,B
+130100,abrupt,205,tfidf,What is P3 current metric?,1,189,0.8154296875,1,0,11.929799999052193,historical,B
+130100,abrupt,205,resolved_tfidf,What is P3 current metric?,1,226,0.779296875,1,0,19.673400000101537,historical,B
+130100,abrupt,206,recent_short,What is P4 current dataset?,0,83,-0.0810546875,0,0,0.1542999998491723,historical,B
+130100,abrupt,206,recent_long,What is P4 current dataset?,1,550,0.462890625,1,0,0.2955999989353586,historical,B
+130100,abrupt,206,tfidf,What is P4 current dataset?,1,222,0.783203125,1,0,10.934900001302594,historical,B
+130100,abrupt,206,resolved_tfidf,What is P4 current dataset?,0,225,-0.2197265625,0,1,20.541999998386018,historical,B
+130100,abrupt,207,recent_short,What is P3 current dataset?,0,84,-0.08203125,0,0,0.25719999939610716,historical,B
+130100,abrupt,207,recent_long,What is P3 current dataset?,1,550,0.462890625,1,0,0.34190000042144675,historical,B
+130100,abrupt,207,tfidf,What is P3 current dataset?,0,211,-0.2060546875,0,1,10.91679999990447,historical,B
+130100,abrupt,207,resolved_tfidf,What is P3 current dataset?,0,223,-0.2177734375,0,1,22.458599998572026,historical,B
+130100,abrupt,208,recent_short,What is P1 current evaluation measure?,0,85,-0.0830078125,0,0,0.16850000065460335,historical,B
+130100,abrupt,208,recent_long,What is P1 current evaluation measure?,1,542,0.470703125,1,0,0.7155000002967427,historical,B
+130100,abrupt,208,tfidf,What is P1 current evaluation measure?,1,231,0.7744140625,1,0,11.430799999288865,historical,B
+130100,abrupt,208,resolved_tfidf,What is P1 current evaluation measure?,0,226,-0.220703125,0,1,45.81340000004275,historical,B
+130100,abrupt,209,recent_short,What is P1 current due date?,0,84,-0.08203125,0,0,0.35989999923913274,historical,B
+130100,abrupt,209,recent_long,What is P1 current due date?,0,551,-0.5380859375,0,0,0.6171000004542293,historical,B
+130100,abrupt,209,tfidf,What is P1 current due date?,1,231,0.7744140625,1,0,50.48410000017611,historical,B
+130100,abrupt,209,resolved_tfidf,What is P1 current due date?,1,192,0.8125,1,0,124.15570000121079,historical,B
+130100,abrupt,210,recent_short,What is P3 current metric?,0,84,-0.08203125,0,0,0.337200001013116,historical,B
+130100,abrupt,210,recent_long,What is P3 current metric?,0,550,-0.537109375,0,0,0.6008000000292668,historical,B
+130100,abrupt,210,tfidf,What is P3 current metric?,1,189,0.8154296875,1,0,27.733500000977074,historical,B
+130100,abrupt,210,resolved_tfidf,What is P3 current metric?,1,226,0.779296875,1,0,29.734400000961614,historical,B
+130100,abrupt,211,recent_short,What is its current metric?,1,83,0.9189453125,1,0,0.1818999990064185,recent,B
+130100,abrupt,211,recent_long,What is its current metric?,1,550,0.462890625,1,0,0.32049999936134554,recent,B
+130100,abrupt,211,tfidf,What is its current metric?,0,222,-0.216796875,0,0,10.16429999981483,recent,B
+130100,abrupt,211,resolved_tfidf,What is its current metric?,0,236,-0.23046875,0,1,28.225000000020373,recent,B
+130100,abrupt,212,recent_short,What is P5 current coding language?,0,85,-0.0830078125,0,0,0.17279999883612618,historical,B
+130100,abrupt,212,recent_long,What is P5 current coding language?,0,551,-0.5380859375,0,0,0.3099999994446989,historical,B
+130100,abrupt,212,tfidf,What is P5 current coding language?,0,231,-0.2255859375,0,1,11.27499999893189,historical,B
+130100,abrupt,212,resolved_tfidf,What is P5 current coding language?,1,227,0.7783203125,1,0,20.2393999988999,historical,B
+130100,abrupt,213,recent_short,What is P5 current data source?,0,84,-0.08203125,0,0,0.16510000023117755,historical,B
+130100,abrupt,213,recent_long,What is P5 current data source?,0,550,-0.537109375,0,0,0.3089000001637032,historical,B
+130100,abrupt,213,tfidf,What is P5 current data source?,1,231,0.7744140625,0,0,14.547000000675325,historical,B
+130100,abrupt,213,resolved_tfidf,What is P5 current data source?,1,227,0.7783203125,1,0,18.74590000079479,historical,B
+130100,abrupt,214,recent_short,What is P3 current dataset?,0,83,-0.0810546875,0,0,0.15610000082233455,historical,B
+130100,abrupt,214,recent_long,What is P3 current dataset?,1,549,0.4638671875,1,0,0.2922999992733821,historical,B
+130100,abrupt,214,tfidf,What is P3 current dataset?,0,211,-0.2060546875,0,1,12.284099999305909,historical,B
+130100,abrupt,214,resolved_tfidf,What is P3 current dataset?,0,223,-0.2177734375,0,1,18.697299999985262,historical,B
+130100,abrupt,215,recent_short,What is P1 current language?,0,84,-0.08203125,0,0,0.15549999989161734,historical,B
+130100,abrupt,215,recent_long,What is P1 current language?,0,549,-0.5361328125,0,0,0.3028999999514781,historical,B
+130100,abrupt,215,tfidf,What is P1 current language?,0,222,-0.216796875,0,1,10.750999999800115,historical,B
+130100,abrupt,215,resolved_tfidf,What is P1 current language?,0,224,-0.21875,0,1,19.870000000082655,historical,B
+130100,abrupt,216,recent_short,What is P1 current deadline?,0,83,-0.0810546875,0,0,0.1570999993418809,historical,B
+130100,abrupt,216,recent_long,What is P1 current deadline?,0,548,-0.53515625,0,0,0.3032000004168367,historical,B
+130100,abrupt,216,tfidf,What is P1 current deadline?,1,167,0.8369140625,0,0,12.373800000204938,historical,B
+130100,abrupt,216,resolved_tfidf,What is P1 current deadline?,1,191,0.8134765625,1,0,21.275499999319436,historical,B
+130100,abrupt,217,recent_short,What is P5 current data source?,0,84,-0.08203125,0,0,0.24649999977555126,historical,B
+130100,abrupt,217,recent_long,What is P5 current data source?,1,549,0.4638671875,1,0,0.3157999999530148,historical,B
+130100,abrupt,217,tfidf,What is P5 current data source?,1,231,0.7744140625,1,0,13.33859999976994,historical,B
+130100,abrupt,217,resolved_tfidf,What is P5 current data source?,1,227,0.7783203125,1,0,21.304199999576667,historical,B
+130100,abrupt,218,recent_short,What is P6 current evaluation measure?,0,84,-0.08203125,0,0,0.4349999999249121,historical,B
+130100,abrupt,218,recent_long,What is P6 current evaluation measure?,0,548,-0.53515625,0,0,0.7158999997045612,historical,B
+130100,abrupt,218,tfidf,What is P6 current evaluation measure?,1,231,0.7744140625,1,0,13.368400001127156,historical,B
+130100,abrupt,218,resolved_tfidf,What is P6 current evaluation measure?,1,228,0.77734375,1,0,21.678099999917322,historical,B
+130100,abrupt,219,recent_short,What is P4 current coding language?,0,85,-0.0830078125,0,0,0.16039999900385737,historical,B
+130100,abrupt,219,recent_long,What is P4 current coding language?,0,548,-0.53515625,0,0,0.29709999944316223,historical,B
+130100,abrupt,219,tfidf,What is P4 current coding language?,1,231,0.7744140625,1,0,10.456300000441843,historical,B
+130100,abrupt,219,resolved_tfidf,What is P4 current coding language?,0,225,-0.2197265625,0,1,20.85819999956584,historical,B
+130100,abrupt,220,recent_short,What is P2 current coding language?,0,84,-0.08203125,0,0,0.17289999959757552,historical,B
+130100,abrupt,220,recent_long,What is P2 current coding language?,1,548,0.46484375,1,0,0.2969999986817129,historical,B
+130100,abrupt,220,tfidf,What is P2 current coding language?,0,231,-0.2255859375,0,1,12.785700000677025,historical,B
+130100,abrupt,220,resolved_tfidf,What is P2 current coding language?,1,225,0.7802734375,1,0,25.62969999962661,historical,B
+130100,abrupt,221,recent_short,What is P3 current metric?,0,83,-0.0810546875,0,0,0.16979999963950831,historical,B
+130100,abrupt,221,recent_long,What is P3 current metric?,0,546,-0.533203125,0,0,0.9898999996948987,historical,B
+130100,abrupt,221,tfidf,What is P3 current metric?,1,189,0.8154296875,1,0,11.341699999320554,historical,B
+130100,abrupt,221,resolved_tfidf,What is P3 current metric?,1,226,0.779296875,1,0,26.404899999761255,historical,B
+130100,abrupt,222,recent_short,What is P6 current deadline?,0,83,-0.0810546875,0,0,0.1666999996814411,historical,B
+130100,abrupt,222,recent_long,What is P6 current deadline?,0,546,-0.533203125,0,0,0.3163999990647426,historical,B
+130100,abrupt,222,tfidf,What is P6 current deadline?,1,211,0.7939453125,0,0,12.527399998361943,historical,B
+130100,abrupt,222,resolved_tfidf,What is P6 current deadline?,1,225,0.7802734375,1,0,20.462500000576256,historical,B
+130100,abrupt,223,recent_short,What is P4 current evaluation measure?,0,85,-0.0830078125,0,0,0.16529999993508682,historical,B
+130100,abrupt,223,recent_long,What is P4 current evaluation measure?,0,547,-0.5341796875,0,0,0.3164999998261919,historical,B
+130100,abrupt,223,tfidf,What is P4 current evaluation measure?,1,231,0.7744140625,0,0,12.662299999647075,historical,B
+130100,abrupt,223,resolved_tfidf,What is P4 current evaluation measure?,0,225,-0.2197265625,0,1,20.624299999326468,historical,B
+130100,abrupt,224,recent_short,What is P1 current dataset?,0,83,-0.0810546875,0,0,0.16569999934290536,historical,B
+130100,abrupt,224,recent_long,What is P1 current dataset?,0,546,-0.533203125,0,0,0.3042999996978324,historical,B
+130100,abrupt,224,tfidf,What is P1 current dataset?,0,189,-0.1845703125,0,1,13.012999999773456,historical,B
+130100,abrupt,224,resolved_tfidf,What is P1 current dataset?,1,227,0.7783203125,1,0,20.453000000998145,historical,B
+130100,abrupt,225,recent_short,What is P4 current due date?,0,84,-0.08203125,0,0,0.16930000128922984,historical,B
+130100,abrupt,225,recent_long,What is P4 current due date?,0,547,-0.5341796875,0,0,0.3223000003345078,historical,B
+130100,abrupt,225,tfidf,What is P4 current due date?,1,231,0.7744140625,1,0,17.182300000058603,historical,B
+130100,abrupt,225,resolved_tfidf,What is P4 current due date?,1,227,0.7783203125,1,0,23.109299998395727,historical,B
+130100,abrupt,226,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.1660999987507239,recent,B
+130100,abrupt,226,recent_long,What is its current deadline?,1,545,0.4677734375,1,0,0.3190000006725313,recent,B
+130100,abrupt,226,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,10.740699999587378,recent,B
+130100,abrupt,226,resolved_tfidf,What is its current deadline?,1,191,0.8134765625,1,0,21.369599999161437,recent,B
+130100,abrupt,227,recent_short,What is P1 current data source?,0,85,-0.0830078125,0,0,0.16429999959655106,historical,B
+130100,abrupt,227,recent_long,What is P1 current data source?,0,547,-0.5341796875,0,0,0.30469999910565093,historical,B
+130100,abrupt,227,tfidf,What is P1 current data source?,1,231,0.7744140625,1,0,11.153299999932642,historical,B
+130100,abrupt,227,resolved_tfidf,What is P1 current data source?,1,228,0.77734375,1,0,21.268399999826215,historical,B
+130100,abrupt,228,recent_short,What is P6 current dataset?,0,83,-0.0810546875,0,0,0.16529999993508682,historical,B
+130100,abrupt,228,recent_long,What is P6 current dataset?,1,546,0.466796875,1,0,0.30449999940174166,historical,B
+130100,abrupt,228,tfidf,What is P6 current dataset?,1,222,0.783203125,1,0,10.92150000113179,historical,B
+130100,abrupt,228,resolved_tfidf,What is P6 current dataset?,1,225,0.7802734375,1,0,20.247700000254554,historical,B
+130100,abrupt,229,recent_short,What is P2 current coding language?,0,84,-0.08203125,0,0,0.17130000014731195,historical,B
+130100,abrupt,229,recent_long,What is P2 current coding language?,0,547,-0.5341796875,0,0,0.3197999994881684,historical,B
+130100,abrupt,229,tfidf,What is P2 current coding language?,0,231,-0.2255859375,0,1,11.366099999577273,historical,B
+130100,abrupt,229,resolved_tfidf,What is P2 current coding language?,1,225,0.7802734375,1,0,20.243200000550132,historical,B
+130100,abrupt,230,recent_short,What is P2 current dataset?,0,84,-0.08203125,0,0,0.1661000005697133,historical,B
+130100,abrupt,230,recent_long,What is P2 current dataset?,0,546,-0.533203125,0,0,0.3164999998261919,historical,B
+130100,abrupt,230,tfidf,What is P2 current dataset?,1,189,0.8154296875,1,0,11.416299999837065,historical,B
+130100,abrupt,230,resolved_tfidf,What is P2 current dataset?,1,226,0.779296875,1,0,22.095300000728457,historical,B
+130100,abrupt,231,recent_short,What is P4 current due date?,0,84,-0.08203125,0,0,0.17859999934444204,historical,B
+130100,abrupt,231,recent_long,What is P4 current due date?,0,547,-0.5341796875,0,0,0.30750000041734893,historical,B
+130100,abrupt,231,tfidf,What is P4 current due date?,1,231,0.7744140625,1,0,12.860599999839906,historical,B
+130100,abrupt,231,resolved_tfidf,What is P4 current due date?,1,227,0.7783203125,1,0,22.095800000897725,historical,B
+130100,abrupt,232,recent_short,What is P3 current due date?,0,84,-0.08203125,0,0,0.1678000007814262,historical,B
+130100,abrupt,232,recent_long,What is P3 current due date?,1,547,0.4658203125,1,0,0.4185999987385003,historical,B
+130100,abrupt,232,tfidf,What is P3 current due date?,1,231,0.7744140625,0,0,11.299699999653967,historical,B
+130100,abrupt,232,resolved_tfidf,What is P3 current due date?,1,192,0.8125,1,0,20.760800000061863,historical,B
+130100,abrupt,233,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.27909999880648684,recent,B
+130100,abrupt,233,recent_long,What is its current data source?,1,548,0.46484375,1,0,0.4153000008955132,recent,B
+130100,abrupt,233,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,10.30200000059267,recent,B
+130100,abrupt,233,resolved_tfidf,What is its current data source?,0,236,-0.23046875,0,1,25.867199999993318,recent,B
+130100,abrupt,234,recent_short,What is P3 current evaluation measure?,0,84,-0.08203125,0,0,0.16909999976633117,historical,B
+130100,abrupt,234,recent_long,What is P3 current evaluation measure?,0,547,-0.5341796875,0,0,0.3094000003329711,historical,B
+130100,abrupt,234,tfidf,What is P3 current evaluation measure?,1,231,0.7744140625,0,0,12.160899999798858,historical,B
+130100,abrupt,234,resolved_tfidf,What is P3 current evaluation measure?,1,227,0.7783203125,1,0,22.168800000144984,historical,B
+130100,abrupt,235,recent_short,What is P6 current data source?,0,84,-0.08203125,0,0,0.17039999875123613,historical,B
+130100,abrupt,235,recent_long,What is P6 current data source?,1,547,0.4658203125,1,0,0.31010000020614825,historical,B
+130100,abrupt,235,tfidf,What is P6 current data source?,1,231,0.7744140625,0,0,15.415399999255897,historical,B
+130100,abrupt,235,resolved_tfidf,What is P6 current data source?,1,225,0.7802734375,1,0,22.25969999926747,historical,B
+130100,abrupt,236,recent_short,What is P6 current evaluation measure?,0,85,-0.0830078125,0,0,0.5831000016769394,historical,B
+130100,abrupt,236,recent_long,What is P6 current evaluation measure?,0,548,-0.53515625,0,0,0.41820000114967115,historical,B
+130100,abrupt,236,tfidf,What is P6 current evaluation measure?,1,231,0.7744140625,1,0,10.98689999889757,historical,B
+130100,abrupt,236,resolved_tfidf,What is P6 current evaluation measure?,1,228,0.77734375,1,0,24.219900000389316,historical,B
+130100,abrupt,237,recent_short,What is its current coding language?,1,84,0.91796875,1,0,0.18069999896397348,recent,B
+130100,abrupt,237,recent_long,What is its current coding language?,1,548,0.46484375,1,0,0.3223000003345078,recent,B
+130100,abrupt,237,tfidf,What is its current coding language?,0,231,-0.2255859375,0,0,15.31299999987823,recent,B
+130100,abrupt,237,resolved_tfidf,What is its current coding language?,0,237,-0.2314453125,0,1,153.57740000035847,recent,B
+130100,abrupt,238,recent_short,What is P5 current coding language?,0,85,-0.0830078125,0,0,0.3252000005886657,historical,B
+130100,abrupt,238,recent_long,What is P5 current coding language?,1,548,0.46484375,1,0,0.5165000002307352,historical,B
+130100,abrupt,238,tfidf,What is P5 current coding language?,1,231,0.7744140625,1,0,22.279099999650498,historical,B
+130100,abrupt,238,resolved_tfidf,What is P5 current coding language?,0,227,-0.2216796875,0,1,27.286299999104813,historical,B
+130100,abrupt,239,recent_short,What is P6 current dataset?,0,84,-0.08203125,0,0,0.18210000052931719,historical,B
+130100,abrupt,239,recent_long,What is P6 current dataset?,1,548,0.46484375,1,0,0.32110000029206276,historical,B
+130100,abrupt,239,tfidf,What is P6 current dataset?,1,222,0.783203125,1,0,12.428100000761333,historical,B
+130100,abrupt,239,resolved_tfidf,What is P6 current dataset?,1,224,0.78125,1,0,20.72000000043772,historical,B
+130100,abrupt,240,recent_short,What is P1 current coding language?,0,84,-0.08203125,0,0,0.177399999301997,historical,B
+130100,abrupt,240,recent_long,What is P1 current coding language?,1,549,0.4638671875,1,0,0.5208999991737073,historical,B
+130100,abrupt,240,tfidf,What is P1 current coding language?,1,231,0.7744140625,0,0,12.033400000291294,historical,B
+130100,abrupt,240,resolved_tfidf,What is P1 current coding language?,0,225,-0.2197265625,0,1,22.149500000523403,historical,B
+130100,abrupt,241,recent_short,What is P4 current dataset?,0,83,-0.0810546875,0,0,0.17859999934444204,historical,B
+130100,abrupt,241,recent_long,What is P4 current dataset?,1,547,0.4658203125,1,0,0.3089000001637032,historical,B
+130100,abrupt,241,tfidf,What is P4 current dataset?,1,211,0.7939453125,0,0,14.76840000032098,historical,B
+130100,abrupt,241,resolved_tfidf,What is P4 current dataset?,1,226,0.779296875,1,0,23.54899999954796,historical,B
+130100,abrupt,242,recent_short,What is P2 current language?,0,84,-0.08203125,0,0,0.16870000035851263,historical,B
+130100,abrupt,242,recent_long,What is P2 current language?,1,548,0.46484375,1,0,0.30639999931736384,historical,B
+130100,abrupt,242,tfidf,What is P2 current language?,1,223,0.7822265625,1,0,12.060600000040722,historical,B
+130100,abrupt,242,resolved_tfidf,What is P2 current language?,1,225,0.7802734375,1,0,21.573399999397225,historical,B
+130100,abrupt,243,recent_short,What is P6 current dataset?,0,83,-0.0810546875,0,0,0.17440000010537915,historical,B
+130100,abrupt,243,recent_long,What is P6 current dataset?,0,548,-0.53515625,0,0,0.38729999869246967,historical,B
+130100,abrupt,243,tfidf,What is P6 current dataset?,1,222,0.783203125,1,0,12.771600000633043,historical,B
+130100,abrupt,243,resolved_tfidf,What is P6 current dataset?,1,224,0.78125,1,0,25.40689999841561,historical,B
+130100,abrupt,244,recent_short,What is P3 current language?,0,84,-0.08203125,0,0,0.19040000006498303,historical,B
+130100,abrupt,244,recent_long,What is P3 current language?,0,548,-0.53515625,0,0,0.35459999890008476,historical,B
+130100,abrupt,244,tfidf,What is P3 current language?,0,225,-0.2197265625,0,1,13.102900000376394,historical,B
+130100,abrupt,244,resolved_tfidf,What is P3 current language?,0,226,-0.220703125,0,1,23.42760000101407,historical,B
+130100,abrupt,245,recent_short,What is P6 current deadline?,0,83,-0.0810546875,0,0,0.17809999917517416,historical,B
+130100,abrupt,245,recent_long,What is P6 current deadline?,0,548,-0.53515625,0,0,0.31909999961499125,historical,B
+130100,abrupt,245,tfidf,What is P6 current deadline?,1,211,0.7939453125,0,0,13.381099999605794,historical,B
+130100,abrupt,245,resolved_tfidf,What is P6 current deadline?,1,226,0.779296875,1,0,21.93979999901785,historical,B
+130100,abrupt,246,recent_short,What is P6 current due date?,0,84,-0.08203125,0,0,0.17759999900590628,historical,B
+130100,abrupt,246,recent_long,What is P6 current due date?,0,549,-0.5361328125,0,0,0.32129999999597203,historical,B
+130100,abrupt,246,tfidf,What is P6 current due date?,1,231,0.7744140625,1,0,13.562499998442945,historical,B
+130100,abrupt,246,resolved_tfidf,What is P6 current due date?,1,227,0.7783203125,1,0,24.05929999986256,historical,B
+130100,abrupt,247,recent_short,What is P2 current deadline?,0,84,-0.08203125,0,0,0.2029999996011611,historical,B
+130100,abrupt,247,recent_long,What is P2 current deadline?,0,548,-0.53515625,0,0,0.37089999932504725,historical,B
+130100,abrupt,247,tfidf,What is P2 current deadline?,0,200,-0.1953125,0,1,11.936099999729777,historical,B
+130100,abrupt,247,resolved_tfidf,What is P2 current deadline?,1,224,0.78125,1,0,23.574900000312482,historical,B
+130100,abrupt,248,recent_short,What is P6 current language?,0,83,-0.0810546875,0,0,0.17900000057124998,historical,B
+130100,abrupt,248,recent_long,What is P6 current language?,0,548,-0.53515625,0,0,0.3186000012647128,historical,B
+130100,abrupt,248,tfidf,What is P6 current language?,1,225,0.7802734375,1,0,12.298999999984517,historical,B
+130100,abrupt,248,resolved_tfidf,What is P6 current language?,0,226,-0.220703125,0,1,22.191000000020722,historical,B
+130100,abrupt,249,recent_short,What is P5 current language?,0,84,-0.08203125,0,0,0.17909999951370992,historical,B
+130100,abrupt,249,recent_long,What is P5 current language?,0,548,-0.53515625,0,0,0.3598000002966728,historical,B
+130100,abrupt,249,tfidf,What is P5 current language?,0,225,-0.2197265625,0,1,12.073699999746168,historical,B
+130100,abrupt,249,resolved_tfidf,What is P5 current language?,0,226,-0.220703125,0,1,24.123900000631693,historical,B
+130100,abrupt,250,recent_short,What is P4 current evaluation measure?,0,84,-0.08203125,0,0,0.5081999988760799,historical,B
+130100,abrupt,250,recent_long,What is P4 current evaluation measure?,0,548,-0.53515625,0,0,0.46210000073187985,historical,B
+130100,abrupt,250,tfidf,What is P4 current evaluation measure?,1,231,0.7744140625,0,0,10.780900000099791,historical,B
+130100,abrupt,250,resolved_tfidf,What is P4 current evaluation measure?,0,225,-0.2197265625,0,1,25.790900001084083,historical,B
+130100,abrupt,251,recent_short,What is P4 current deadline?,0,83,-0.0810546875,0,0,0.182699999641045,historical,B
+130100,abrupt,251,recent_long,What is P4 current deadline?,0,547,-0.5341796875,0,0,0.33430000075895805,historical,B
+130100,abrupt,251,tfidf,What is P4 current deadline?,1,222,0.783203125,1,0,12.890699999843491,historical,B
+130100,abrupt,251,resolved_tfidf,What is P4 current deadline?,1,226,0.779296875,1,0,23.481500000343658,historical,B
+130100,abrupt,252,recent_short,What is P1 current data source?,0,85,-0.0830078125,0,0,0.19729999985429458,historical,B
+130100,abrupt,252,recent_long,What is P1 current data source?,1,549,0.4638671875,1,0,0.3347999991092365,historical,B
+130100,abrupt,252,tfidf,What is P1 current data source?,1,231,0.7744140625,1,0,12.074899999788613,historical,B
+130100,abrupt,252,resolved_tfidf,What is P1 current data source?,1,228,0.77734375,1,0,23.168199999417993,historical,B
+130100,abrupt,253,recent_short,What is P2 current due date?,0,84,-0.08203125,0,0,0.23289999990083743,historical,B
+130100,abrupt,253,recent_long,What is P2 current due date?,0,548,-0.53515625,0,0,0.4487000005610753,historical,B
+130100,abrupt,253,tfidf,What is P2 current due date?,1,231,0.7744140625,1,0,11.41030000144383,historical,B
+130100,abrupt,253,resolved_tfidf,What is P2 current due date?,1,225,0.7802734375,1,0,23.465300000680145,historical,B
+130100,abrupt,254,recent_short,What is P4 current dataset?,0,83,-0.0810546875,0,0,0.2858000007108785,historical,B
+130100,abrupt,254,recent_long,What is P4 current dataset?,1,547,0.4658203125,1,0,0.32450000071548857,historical,B
+130100,abrupt,254,tfidf,What is P4 current dataset?,1,211,0.7939453125,0,0,11.604400000578607,historical,B
+130100,abrupt,254,resolved_tfidf,What is P4 current dataset?,1,227,0.7783203125,1,0,25.027800000316347,historical,B
+130100,abrupt,255,recent_short,What is P1 current dataset?,0,84,-0.08203125,0,0,0.1823999991756864,historical,B
+130100,abrupt,255,recent_long,What is P1 current dataset?,1,547,0.4658203125,1,0,0.3218000001652399,historical,B
+130100,abrupt,255,tfidf,What is P1 current dataset?,0,189,-0.1845703125,0,1,12.861500001235981,historical,B
+130100,abrupt,255,resolved_tfidf,What is P1 current dataset?,1,227,0.7783203125,1,0,23.501300000134506,historical,B
+130100,abrupt,256,recent_short,What is P6 current due date?,0,85,-0.0830078125,0,0,0.1990000000660075,historical,B
+130100,abrupt,256,recent_long,What is P6 current due date?,0,549,-0.5361328125,0,0,0.4062999996676808,historical,B
+130100,abrupt,256,tfidf,What is P6 current due date?,1,231,0.7744140625,1,0,11.179799999808893,historical,B
+130100,abrupt,256,resolved_tfidf,What is P6 current due date?,1,227,0.7783203125,1,0,24.244000000180677,historical,B
+130100,abrupt,257,recent_short,What is P5 current due date?,0,85,-0.0830078125,0,0,0.192000001334236,historical,B
+130100,abrupt,257,recent_long,What is P5 current due date?,0,550,-0.537109375,0,0,0.3249000001233071,historical,B
+130100,abrupt,257,tfidf,What is P5 current due date?,1,231,0.7744140625,0,0,16.013600001315353,historical,B
+130100,abrupt,257,resolved_tfidf,What is P5 current due date?,1,226,0.779296875,1,0,27.72000000004482,historical,B
+130100,abrupt,258,recent_short,What is its current deadline?,1,84,0.91796875,1,0,0.33880000046337955,recent,B
+130100,abrupt,258,recent_long,What is its current deadline?,1,549,0.4638671875,1,0,0.334399999701418,recent,B
+130100,abrupt,258,tfidf,What is its current deadline?,0,222,-0.216796875,0,0,12.567399999170448,recent,B
+130100,abrupt,258,resolved_tfidf,What is its current deadline?,1,238,0.767578125,1,0,24.60609999980079,recent,B
+130100,abrupt,259,recent_short,What is P2 current due date?,0,84,-0.08203125,0,0,0.21529999867198057,historical,B
+130100,abrupt,259,recent_long,What is P2 current due date?,0,550,-0.537109375,0,0,0.3274000009696465,historical,B
+130100,abrupt,259,tfidf,What is P2 current due date?,1,231,0.7744140625,1,0,11.938100000406848,historical,B
+130100,abrupt,259,resolved_tfidf,What is P2 current due date?,1,225,0.7802734375,1,0,22.773999999117223,historical,B
+130100,abrupt,260,recent_short,What is P3 current evaluation measure?,0,85,-0.0830078125,0,0,0.18490000002202578,historical,B
+130100,abrupt,260,recent_long,What is P3 current evaluation measure?,0,550,-0.537109375,0,0,0.32470000041939784,historical,B
+130100,abrupt,260,tfidf,What is P3 current evaluation measure?,1,231,0.7744140625,0,0,12.425799999618903,historical,B
+130100,abrupt,260,resolved_tfidf,What is P3 current evaluation measure?,1,227,0.7783203125,1,0,26.796400001330767,historical,B
+130100,abrupt,261,recent_short,What is P4 current language?,0,83,-0.0810546875,0,0,0.20590000167430844,historical,B
+130100,abrupt,261,recent_long,What is P4 current language?,0,549,-0.5361328125,0,0,0.32889999965846073,historical,B
+130100,abrupt,261,tfidf,What is P4 current language?,0,224,-0.21875,0,1,15.200600000753184,historical,B
+130100,abrupt,261,resolved_tfidf,What is P4 current language?,0,224,-0.21875,0,1,23.180199999842444,historical,B
+130100,abrupt,262,recent_short,What is its current deadline?,1,83,0.9189453125,1,0,0.19579999934649095,recent,B
+130100,abrupt,262,recent_long,What is its current deadline?,1,549,0.4638671875,1,0,0.32749999991210643,recent,B
+130100,abrupt,262,tfidf,What is its current deadline?,0,222,-0.216796875,1,0,13.643999998748768,recent,B
+130100,abrupt,262,resolved_tfidf,What is its current deadline?,1,237,0.7685546875,1,0,29.451899999912712,recent,B
+130100,abrupt,263,recent_short,What is P4 current metric?,0,84,-0.08203125,0,0,0.20190000032016542,historical,B
+130100,abrupt,263,recent_long,What is P4 current metric?,1,549,0.4638671875,1,0,0.3383999992365716,historical,B
+130100,abrupt,263,tfidf,What is P4 current metric?,0,211,-0.2060546875,0,1,13.145500000973698,historical,B
+130100,abrupt,263,resolved_tfidf,What is P4 current metric?,0,224,-0.21875,0,1,28.02510000037728,historical,B
+130100,abrupt,264,recent_short,What is its current dataset?,1,84,0.91796875,1,0,0.22899999930814374,recent,B
+130100,abrupt,264,recent_long,What is its current dataset?,1,550,0.462890625,1,0,0.3668999997898936,recent,B
+130100,abrupt,264,tfidf,What is its current dataset?,0,222,-0.216796875,0,0,37.16840000015509,recent,B
+130100,abrupt,264,resolved_tfidf,What is its current dataset?,1,237,0.7685546875,1,0,176.75690000032773,recent,B
+130100,abrupt,265,recent_short,What is its current evaluation measure?,1,84,0.91796875,1,0,0.4186000005574897,recent,B
+130100,abrupt,265,recent_long,What is its current evaluation measure?,1,551,0.4619140625,1,0,1.1420999999245396,recent,B
+130100,abrupt,265,tfidf,What is its current evaluation measure?,0,231,-0.2255859375,0,0,21.931900000708993,recent,B
+130100,abrupt,265,resolved_tfidf,What is its current evaluation measure?,1,238,0.767578125,1,0,43.50510000040231,recent,B
+130100,abrupt,266,recent_short,What is P3 current coding language?,0,85,-0.0830078125,0,0,0.3339000013511395,historical,B
+130100,abrupt,266,recent_long,What is P3 current coding language?,0,551,-0.5380859375,0,0,0.4394999996293336,historical,B
+130100,abrupt,266,tfidf,What is P3 current coding language?,1,231,0.7744140625,0,0,13.364099999307655,historical,B
+130100,abrupt,266,resolved_tfidf,What is P3 current coding language?,1,227,0.7783203125,1,0,26.828599999134894,historical,B
+130100,abrupt,267,recent_short,What is P4 current deadline?,0,84,-0.08203125,0,0,0.41029999920283444,historical,B
+130100,abrupt,267,recent_long,What is P4 current deadline?,1,550,0.462890625,1,0,0.42099999882339034,historical,B
+130100,abrupt,267,tfidf,What is P4 current deadline?,1,222,0.783203125,0,0,12.02740000007907,historical,B
+130100,abrupt,267,resolved_tfidf,What is P4 current deadline?,1,226,0.779296875,1,0,25.879999999233405,historical,B
+130100,abrupt,268,recent_short,What is P4 current dataset?,0,84,-0.08203125,0,0,0.19699999938893598,historical,B
+130100,abrupt,268,recent_long,What is P4 current dataset?,0,550,-0.537109375,0,0,0.33939999957510736,historical,B
+130100,abrupt,268,tfidf,What is P4 current dataset?,1,211,0.7939453125,0,0,14.874700000291341,historical,B
+130100,abrupt,268,resolved_tfidf,What is P4 current dataset?,1,227,0.7783203125,1,0,25.066500000320957,historical,B
+130100,abrupt,269,recent_short,What is its current due date?,1,84,0.91796875,1,0,0.373500000932836,recent,B
+130100,abrupt,269,recent_long,What is its current due date?,1,550,0.462890625,1,0,0.4257000000507105,recent,B
+130100,abrupt,269,tfidf,What is its current due date?,0,231,-0.2255859375,0,0,12.790300001142896,recent,B
+130100,abrupt,269,resolved_tfidf,What is its current due date?,0,239,-0.2333984375,0,1,26.532699999734177,recent,B
+130100,abrupt,270,recent_short,What is P1 current data source?,0,85,-0.0830078125,0,0,0.20629999926313758,historical,B
+130100,abrupt,270,recent_long,What is P1 current data source?,0,551,-0.5380859375,0,0,0.3447999988566153,historical,B
+130100,abrupt,270,tfidf,What is P1 current data source?,1,231,0.7744140625,1,0,12.54279999920982,historical,B
+130100,abrupt,270,resolved_tfidf,What is P1 current data source?,1,228,0.77734375,1,0,25.679200000013225,historical,B
+130100,abrupt,271,recent_short,What is P1 current evaluation measure?,0,85,-0.0830078125,0,0,0.20740000036312267,historical,B
+130100,abrupt,271,recent_long,What is P1 current evaluation measure?,0,551,-0.5380859375,0,0,0.368200000593788,historical,B
+130100,abrupt,271,tfidf,What is P1 current evaluation measure?,0,231,-0.2255859375,0,1,12.000000000625732,historical,B
+130100,abrupt,271,resolved_tfidf,What is P1 current evaluation measure?,0,226,-0.220703125,0,1,26.35740000005171,historical,B
+130100,abrupt,272,recent_short,What is P2 current deadline?,0,84,-0.08203125,0,0,0.19969999993918464,historical,B
+130100,abrupt,272,recent_long,What is P2 current deadline?,0,541,-0.5283203125,0,0,0.3405999996175524,historical,B
+130100,abrupt,272,tfidf,What is P2 current deadline?,1,211,0.7939453125,1,0,13.868999998521758,historical,B
+130100,abrupt,272,resolved_tfidf,What is P2 current deadline?,1,224,0.78125,1,0,23.629100000107428,historical,B
+130100,abrupt,273,recent_short,What is P3 current coding language?,0,85,-0.0830078125,0,0,0.6795000008423813,historical,B
+130100,abrupt,273,recent_long,What is P3 current coding language?,0,543,-0.5302734375,0,0,0.5552000002353452,historical,B
+130100,abrupt,273,tfidf,What is P3 current coding language?,1,231,0.7744140625,0,0,11.89160000103584,historical,B
+130100,abrupt,273,resolved_tfidf,What is P3 current coding language?,1,227,0.7783203125,1,0,29.12120000110008,historical,B
+130100,abrupt,274,recent_short,What is its current data source?,1,85,0.9169921875,1,0,0.21100000049045775,recent,B
+130100,abrupt,274,recent_long,What is its current data source?,1,543,0.4697265625,1,0,0.3921999996236991,recent,B
+130100,abrupt,274,tfidf,What is its current data source?,0,231,-0.2255859375,0,0,16.030400000090594,recent,B
+130100,abrupt,274,resolved_tfidf,What is its current data source?,1,239,0.7666015625,1,0,35.71170000031998,recent,B
+130100,abrupt,275,recent_short,What is P4 current deadline?,0,83,-0.0810546875,0,0,0.3298999999969965,historical,B
+130100,abrupt,275,recent_long,What is P4 current deadline?,1,541,0.4716796875,1,0,0.45540000064647757,historical,B
+130100,abrupt,275,tfidf,What is P4 current deadline?,1,222,0.783203125,1,0,17.491700000391575,historical,B
+130100,abrupt,275,resolved_tfidf,What is P4 current deadline?,0,226,-0.220703125,0,1,26.239999999233987,historical,B
+130100,abrupt,276,recent_short,What is P5 current language?,0,83,-0.0810546875,0,0,0.5415000014181715,historical,B
+130100,abrupt,276,recent_long,What is P5 current language?,0,541,-0.5283203125,0,0,0.7629000010638265,historical,B
+130100,abrupt,276,tfidf,What is P5 current language?,0,225,-0.2197265625,0,1,26.323000000047614,historical,B
+130100,abrupt,276,resolved_tfidf,What is P5 current language?,0,226,-0.220703125,0,1,41.07730000032461,historical,B
+130100,abrupt,277,recent_short,What is P1 current metric?,0,83,-0.0810546875,0,0,0.20869999934802763,historical,B
+130100,abrupt,277,recent_long,What is P1 current metric?,0,550,-0.537109375,0,0,0.3473999986454146,historical,B
+130100,abrupt,277,tfidf,What is P1 current metric?,0,222,-0.216796875,0,1,14.84820000041509,historical,B
+130100,abrupt,277,resolved_tfidf,What is P1 current metric?,0,225,-0.2197265625,0,1,23.86619999924733,historical,B
+130100,abrupt,278,recent_short,What is P6 current deadline?,0,83,-0.0810546875,0,0,0.2051999999821419,historical,B
+130100,abrupt,278,recent_long,What is P6 current deadline?,0,549,-0.5361328125,0,0,0.5025000009482028,historical,B
+130100,abrupt,278,tfidf,What is P6 current deadline?,1,222,0.783203125,1,0,12.945200000103796,historical,B
+130100,abrupt,278,resolved_tfidf,What is P6 current deadline?,1,225,0.7802734375,1,0,25.746700001036515,historical,B
+130100,abrupt,279,recent_short,What is P6 current data source?,0,85,-0.0830078125,0,0,0.2829999993991805,historical,B
+130100,abrupt,279,recent_long,What is P6 current data source?,0,550,-0.537109375,0,0,0.4300999989936827,historical,B
+130100,abrupt,279,tfidf,What is P6 current data source?,1,231,0.7744140625,1,0,12.740099999064114,historical,B
+130100,abrupt,279,resolved_tfidf,What is P6 current data source?,1,226,0.779296875,1,0,26.061100001243176,historical,B
+130100,abrupt,280,recent_short,What is P3 current due date?,0,84,-0.08203125,0,0,0.29629999880853575,historical,B
+130100,abrupt,280,recent_long,What is P3 current due date?,0,550,-0.537109375,0,0,0.4217000005155569,historical,B
+130100,abrupt,280,tfidf,What is P3 current due date?,1,231,0.7744140625,1,0,15.193699999144883,historical,B
+130100,abrupt,280,resolved_tfidf,What is P3 current due date?,1,204,0.80078125,1,0,29.95050000026822,historical,B
+130100,abrupt,281,recent_short,What is P5 current language?,0,84,-0.08203125,0,0,0.1998999996430939,historical,B
+130100,abrupt,281,recent_long,What is P5 current language?,0,549,-0.5361328125,0,0,0.43400000140536577,historical,B
+130100,abrupt,281,tfidf,What is P5 current language?,0,225,-0.2197265625,0,1,13.38220000070578,historical,B
+130100,abrupt,281,resolved_tfidf,What is P5 current language?,0,226,-0.220703125,0,1,23.307200000999728,historical,B
+130100,abrupt,282,recent_short,What is P3 current evaluation measure?,0,84,-0.08203125,0,0,0.19810000048892107,historical,B
+130100,abrupt,282,recent_long,What is P3 current evaluation measure?,0,549,-0.5361328125,0,0,0.9229999996023253,historical,B
+130100,abrupt,282,tfidf,What is P3 current evaluation measure?,1,231,0.7744140625,0,0,12.470800000301097,historical,B
+130100,abrupt,282,resolved_tfidf,What is P3 current evaluation measure?,1,226,0.779296875,1,0,29.757799999060808,historical,B
+130100,abrupt,283,recent_short,What is P4 current coding language?,0,84,-0.08203125,0,0,0.2002000001084525,historical,B
+130100,abrupt,283,recent_long,What is P4 current coding language?,0,548,-0.53515625,0,0,0.497499999255524,historical,B
+130100,abrupt,283,tfidf,What is P4 current coding language?,1,231,0.7744140625,1,0,12.946000000738422,historical,B
+130100,abrupt,283,resolved_tfidf,What is P4 current coding language?,0,225,-0.2197265625,0,1,27.07360000022163,historical,B
+130100,abrupt,284,recent_short,What is P3 current data source?,0,85,-0.0830078125,0,0,0.20590000167430844,historical,B
+130100,abrupt,284,recent_long,What is P3 current data source?,1,548,0.46484375,1,0,0.3628999984357506,historical,B
+130100,abrupt,284,tfidf,What is P3 current data source?,1,231,0.7744140625,1,0,13.684800000191899,historical,B
+130100,abrupt,284,resolved_tfidf,What is P3 current data source?,1,228,0.77734375,1,0,25.44830000078946,historical,B
+130100,abrupt,285,recent_short,What is P2 current dataset?,0,84,-0.08203125,0,0,0.20709999989776406,historical,B
+130100,abrupt,285,recent_long,What is P2 current dataset?,0,547,-0.5341796875,0,0,0.3586000002542278,historical,B
+130100,abrupt,285,tfidf,What is P2 current dataset?,1,222,0.783203125,0,0,14.743300000191084,historical,B
+130100,abrupt,285,resolved_tfidf,What is P2 current dataset?,1,224,0.78125,1,0,27.73469999920053,historical,B
+130100,abrupt,286,recent_short,What is P6 current dataset?,0,83,-0.0810546875,0,0,0.20390000099723693,historical,B
+130100,abrupt,286,recent_long,What is P6 current dataset?,0,547,-0.5341796875,0,0,0.3417000007175375,historical,B
+130100,abrupt,286,tfidf,What is P6 current dataset?,1,222,0.783203125,0,0,13.68469999943045,historical,B
+130100,abrupt,286,resolved_tfidf,What is P6 current dataset?,1,225,0.7802734375,1,0,32.78140000111307,historical,B
+130100,abrupt,287,recent_short,What is P1 current metric?,0,84,-0.08203125,0,0,0.25439999990339857,historical,B
+130100,abrupt,287,recent_long,What is P1 current metric?,0,548,-0.53515625,0,0,0.44659999912255444,historical,B
+130100,abrupt,287,tfidf,What is P1 current metric?,0,222,-0.216796875,0,1,14.688100000057602,historical,B
+130100,abrupt,287,resolved_tfidf,What is P1 current metric?,0,225,-0.2197265625,0,1,77.19419999921229,historical,B
+130100,abrupt,288,recent_short,What is P2 current evaluation measure?,0,84,-0.08203125,0,0,58.641900001020986,historical,B
+130100,abrupt,288,recent_long,What is P2 current evaluation measure?,0,549,-0.5361328125,0,0,16.13340000039898,historical,B
+130100,abrupt,288,tfidf,What is P2 current evaluation measure?,1,231,0.7744140625,1,0,140.24090000020806,historical,B
+130100,abrupt,288,resolved_tfidf,What is P2 current evaluation measure?,1,229,0.7763671875,1,0,48.097999999299645,historical,B
+130100,abrupt,289,recent_short,What is P3 current deadline?,0,84,-0.08203125,0,0,0.5465000012918608,historical,B
+130100,abrupt,289,recent_long,What is P3 current deadline?,0,549,-0.5361328125,0,0,0.8553000006941147,historical,B
+130100,abrupt,289,tfidf,What is P3 current deadline?,1,167,0.8369140625,0,0,16.961999999693944,historical,B
+130100,abrupt,289,resolved_tfidf,What is P3 current deadline?,1,203,0.8017578125,1,0,39.49279999869759,historical,B
+130100,abrupt,290,recent_short,What is P3 current data source?,0,85,-0.0830078125,0,0,0.24080000002868474,historical,B
+130100,abrupt,290,recent_long,What is P3 current data source?,0,550,-0.537109375,0,0,0.41989999954239465,historical,B
+130100,abrupt,290,tfidf,What is P3 current data source?,1,231,0.7744140625,1,0,19.623399999545654,historical,B
+130100,abrupt,290,resolved_tfidf,What is P3 current data source?,1,228,0.77734375,1,0,32.97449999990931,historical,B
+130100,abrupt,291,recent_short,What is P1 current coding language?,0,84,-0.08203125,0,0,0.6733000009262469,historical,B
+130100,abrupt,291,recent_long,What is P1 current coding language?,0,550,-0.537109375,0,0,0.7597999992867699,historical,B
+130100,abrupt,291,tfidf,What is P1 current coding language?,1,231,0.7744140625,0,0,51.63859999993292,historical,B
+130100,abrupt,291,resolved_tfidf,What is P1 current coding language?,0,225,-0.2197265625,0,1,32.1736999994755,historical,B
+130100,abrupt,292,recent_short,What is P3 current data source?,0,84,-0.08203125,0,0,0.2674000006663846,historical,B
+130100,abrupt,292,recent_long,What is P3 current data source?,0,549,-0.5361328125,0,0,0.39930000093590934,historical,B
+130100,abrupt,292,tfidf,What is P3 current data source?,1,231,0.7744140625,1,0,14.087999999901513,historical,B
+130100,abrupt,292,resolved_tfidf,What is P3 current data source?,1,228,0.77734375,1,0,25.710199999593897,historical,B
+130100,abrupt,293,recent_short,What is P6 current data source?,0,85,-0.0830078125,0,0,0.4417000000103144,historical,B
+130100,abrupt,293,recent_long,What is P6 current data source?,0,550,-0.537109375,0,0,0.6688000012218254,historical,B
+130100,abrupt,293,tfidf,What is P6 current data source?,1,231,0.7744140625,1,0,15.014500000688713,historical,B
+130100,abrupt,293,resolved_tfidf,What is P6 current data source?,1,226,0.779296875,1,0,26.256799999828218,historical,B
+130100,abrupt,294,recent_short,What is P5 current dataset?,0,83,-0.0810546875,0,0,0.23179999880085234,historical,B
+130100,abrupt,294,recent_long,What is P5 current dataset?,1,549,0.4638671875,1,0,0.6171000004542293,historical,B
+130100,abrupt,294,tfidf,What is P5 current dataset?,0,189,-0.1845703125,0,1,14.166799999657087,historical,B
+130100,abrupt,294,resolved_tfidf,What is P5 current dataset?,0,225,-0.2197265625,0,1,30.398999999306398,historical,B
+130100,abrupt,295,recent_short,What is P2 current language?,0,84,-0.08203125,0,0,0.3120000001217704,historical,B
+130100,abrupt,295,recent_long,What is P2 current language?,0,549,-0.5361328125,0,0,0.3782999992836267,historical,B
+130100,abrupt,295,tfidf,What is P2 current language?,1,223,0.7822265625,1,0,16.117499999381835,historical,B
+130100,abrupt,295,resolved_tfidf,What is P2 current language?,1,225,0.7802734375,1,0,45.62930000065535,historical,B
+130100,abrupt,296,recent_short,What is P2 current deadline?,0,84,-0.08203125,0,0,0.48580000111542176,historical,B
+130100,abrupt,296,recent_long,What is P2 current deadline?,0,549,-0.5361328125,0,0,0.9114000004046829,historical,B
+130100,abrupt,296,tfidf,What is P2 current deadline?,1,211,0.7939453125,1,0,15.727500000139116,historical,B
+130100,abrupt,296,resolved_tfidf,What is P2 current deadline?,1,224,0.78125,1,0,28.69000000100641,historical,B
+130100,abrupt,297,recent_short,What is P6 current language?,0,84,-0.08203125,0,0,0.2237999997305451,historical,B
+130100,abrupt,297,recent_long,What is P6 current language?,1,550,0.462890625,1,0,0.3648000001703622,historical,B
+130100,abrupt,297,tfidf,What is P6 current language?,1,224,0.78125,1,0,13.134400000126334,historical,B
+130100,abrupt,297,resolved_tfidf,What is P6 current language?,0,226,-0.220703125,0,1,25.41149999888148,historical,B
+130100,abrupt,298,recent_short,What is P4 current data source?,0,85,-0.0830078125,0,0,0.48349999997299165,historical,B
+130100,abrupt,298,recent_long,What is P4 current data source?,0,551,-0.5380859375,0,0,0.7019000004220288,historical,B
+130100,abrupt,298,tfidf,What is P4 current data source?,1,231,0.7744140625,0,0,14.204400000380701,historical,B
+130100,abrupt,298,resolved_tfidf,What is P4 current data source?,0,228,-0.22265625,0,1,26.688500000091153,historical,B
+130100,abrupt,299,recent_short,What is P1 current deadline?,0,84,-0.08203125,0,0,0.3726999984792201,historical,B
+130100,abrupt,299,recent_long,What is P1 current deadline?,1,541,0.4716796875,1,0,0.47930000073392875,historical,B
+130100,abrupt,299,tfidf,What is P1 current deadline?,1,211,0.7939453125,1,0,13.983599999846774,historical,B
+130100,abrupt,299,resolved_tfidf,What is P1 current deadline?,1,225,0.7802734375,1,0,27.033400001528207,historical,B
