@@ -1,0 +1,11 @@
+seed,t,m1_reviewer,m2_reviewer,verdict,m1_notes,m2_notes
+130000,0,,He Junchen,pending,,四臂都保留 focus 34 和最新复述 35，均答 V130000000012。长窗正文 511≤512，完整成本 549；计分与评价表一致。
+130000,2,,He Junchen,pending,,短窗仅选 40–42，缺少 P4 语言事实，返回 UNKNOWN，y=0、coverage=0、outdated=0。其余三臂均选中更新证据 21 并答对。成本与效用核对一致。
+130000,12,,He Junchen,pending,,短窗仅选 70–72，返回 UNKNOWN。其余三臂均纳入同值复述 44，并答 V130000000032。四臂成本和评分与评价表一致。
+130001,1,,He Junchen,pending,,原始 tfidf 保留 focus 30，但漏掉更新 31，返回旧值 V130001000008，y=0、coverage=0、outdated=1。另三臂选中 31 并答对。成本和效用一致。
+130100,99,,He Junchen,pending,,两窗口都选中 focus 322 和最新事实 323，均答对。原始 tfidf 返回 UNKNOWN。resolved_tfidf 保留 322，证据 323 排第 9，超出前 8 名，返回旧值 V130100000038。该臂完整成本 236，y=0、coverage=0、outdated=1，utility=-0.23046875。
+130100,149,,He Junchen,pending,,A 段最后一题。原始 tfidf 选中最新复述 473，但所选内容无法提供解析并回答该题所需的证据组合，返回 UNKNOWN，coverage=1、y=0、outdated=0。其余三臂保留 focus 472 和事实 473，均答对。
+130100,150,,He Junchen,pending,,B 段首题。两个窗口和 resolved_tfidf 均选中 focus 475 与更新 476，答 V130100000065。原始 tfidf 返回 UNKNOWN，成本 222、y=0、coverage=0、outdated=0。
+130100,151,,He Junchen,pending,,两窗口起点分别为 478 和 447，均晚于历史证据 401，返回 UNKNOWN。两检索臂均选中 401 并答对，完整成本分别为 231 和 192。效用核对一致。
+130101,149,,He Junchen,pending,,两窗口均漏掉 P5 指标更新 310，返回 UNKNOWN；两个检索臂均选中 310，答 V130101000051，完整成本分别为 231 和 193。五项指标与评价表一致。
+130101,299,,He Junchen,pending,,长窗选中 919 并答对，短窗返回 UNKNOWN。两检索臂均漏掉 919，分别答旧值 V130101000098 和 V130101000076，均为 y=0、coverage=0、outdated=1。成本 231 和 228，效用与评价表一致。
