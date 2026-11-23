@@ -1,0 +1,1255 @@
+{
+  "m4_default_benchmark_20261123": {
+    "manifest_sha256": "30b32b1b9eae03d746b64ce5c516b1153c0fd362444a3d9c591cd79d26938588",
+    "config": {
+      "T": 300,
+      "n_dev_per_scenario": 3,
+      "n_demo_per_scenario": 6,
+      "n_formal_per_scenario": 30,
+      "dev_seed": 130000,
+      "demo_seed": 730000,
+      "formal_seed": null,
+      "algorithm_seeds": [
+        17,
+        37
+      ],
+      "p_recent_stable": 0.9,
+      "p_recent_abrupt_before": 0.9,
+      "p_recent_abrupt_after": 0.1,
+      "update_probability": 0.25,
+      "initial_conflict_fraction": 0.25,
+      "budgets": {
+        "recent_short": 128,
+        "recent_long": 512,
+        "tfidf": 256,
+        "resolved_tfidf": 256
+      },
+      "lambda": 0.5,
+      "cost_reference": 512,
+      "refit_every": 5,
+      "prior_precision": 1.0,
+      "bootstrap_seed": 2026,
+      "n_bootstrap": 2000
+    },
+    "seeds": {
+      "dialogue": [
+        130000,
+        130001,
+        130002,
+        130100,
+        130101,
+        130102
+      ],
+      "algorithm": [
+        17,
+        37
+      ]
+    },
+    "counts": {
+      "dialogues": 6,
+      "questions": 1800,
+      "outcomes": 7200,
+      "replay": 25200
+    },
+    "base_commit": "f3e82d3c43f384b86041c6133f15bab38f84a90a",
+    "tables": {
+      "tables/method_summary.csv": [
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "y": "0.8305555555555556",
+          "cost": "151.51277777777776",
+          "utility": "0.6825938585069444",
+          "coverage": "0.8183333333333334",
+          "outdated": "0.13"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "y": "0.8644444444444445",
+          "cost": "151.07000000000002",
+          "utility": "0.7169151475694444",
+          "coverage": "0.8644444444444445",
+          "outdated": "0.13555555555555557"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "y": "0.645",
+          "cost": "126.00388888888888",
+          "utility": "0.5219493272569444",
+          "coverage": "0.6377777777777778",
+          "outdated": "0.07611111111111112"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "y": "0.6522222222222221",
+          "cost": "547.7311111111111",
+          "utility": "0.11732855902777778",
+          "coverage": "0.6522222222222221",
+          "outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "y": "0.4977777777777778",
+          "cost": "83.98333333333333",
+          "utility": "0.41576280381944447",
+          "coverage": "0.4977777777777778",
+          "outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "y": "0.8355555555555556",
+          "cost": "211.28666666666666",
+          "utility": "0.6292209201388889",
+          "coverage": "0.8355555555555556",
+          "outdated": "0.16444444444444445"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "y": "0.4066666666666667",
+          "cost": "218.09888888888887",
+          "utility": "0.19367947048611112",
+          "coverage": "0.4166666666666667",
+          "outdated": "0.12111111111111111"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "y": "0.9566666666666667",
+          "cost": "100.75555555555555",
+          "utility": "0.8582725694444445",
+          "coverage": "0.9472222222222223",
+          "outdated": "0.016666666666666666"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "y": "0.9855555555555555",
+          "cost": "97.77333333333333",
+          "utility": "0.8900737847222221",
+          "coverage": "0.9855555555555555",
+          "outdated": "0.014444444444444446"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "y": "0.8933333333333332",
+          "cost": "102.61555555555556",
+          "utility": "0.7931228298611112",
+          "coverage": "0.8927777777777778",
+          "outdated": "0.008333333333333333"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "y": "0.9288888888888889",
+          "cost": "547.5155555555556",
+          "utility": "0.3942057291666667",
+          "coverage": "0.9288888888888889",
+          "outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "y": "0.89",
+          "cost": "84.01",
+          "utility": "0.807958984375",
+          "coverage": "0.89",
+          "outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "y": "0.8111111111111112",
+          "cost": "217.66666666666666",
+          "utility": "0.5985460069444445",
+          "coverage": "0.8111111111111112",
+          "outdated": "0.18888888888888888"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "y": "0.12333333333333334",
+          "cost": "221.79222222222222",
+          "utility": "-0.09326063368055555",
+          "coverage": "0.21",
+          "outdated": "0.016666666666666666"
+        }
+      ],
+      "tables/dialogue_wins.csv": [
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "n": "3",
+          "wins": "3",
+          "ties": "0",
+          "losses": "0",
+          "mean": "0.05337293836805557",
+          "minimum": "0.03684570312500002",
+          "maximum": "0.06981282552083334"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "n": "3",
+          "wins": "3",
+          "ties": "0",
+          "losses": "0",
+          "mean": "0.08769422743055555",
+          "minimum": "0.08168945312499998",
+          "maximum": "0.09118489583333333"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.10727159288194447",
+          "minimum": "-0.1524430338541667",
+          "maximum": "-0.07028808593750002"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.5118923611111111",
+          "minimum": "-0.5466959635416667",
+          "maximum": "-0.48419596354166666"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.21345811631944445",
+          "minimum": "-0.23019856770833336",
+          "maximum": "-0.197880859375"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "n": "3",
+          "wins": "0",
+          "ties": "3",
+          "losses": "0",
+          "mean": "0.0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.4355414496527778",
+          "minimum": "-0.470263671875",
+          "maximum": "-0.38634114583333334"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "n": "3",
+          "wins": "3",
+          "ties": "0",
+          "losses": "0",
+          "mean": "0.050313585069444465",
+          "minimum": "0.03660807291666668",
+          "maximum": "0.058707682291666674"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "n": "3",
+          "wins": "3",
+          "ties": "0",
+          "losses": "0",
+          "mean": "0.08211480034722218",
+          "minimum": "0.0717447916666667",
+          "maximum": "0.09027669270833327"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.014836154513888903",
+          "minimum": "-0.024760742187500018",
+          "maximum": "-0.00513020833333333"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.4137532552083334",
+          "minimum": "-0.41928059895833336",
+          "maximum": "-0.4094270833333334"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "n": "3",
+          "wins": "0",
+          "ties": "3",
+          "losses": "0",
+          "mean": "0.0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.20941297743055554",
+          "minimum": "-0.23758789062499996",
+          "maximum": "-0.16676106770833332"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "n": "3",
+          "wins": "0",
+          "ties": "0",
+          "losses": "3",
+          "mean": "-0.9012196180555555",
+          "minimum": "-0.9289908854166666",
+          "maximum": "-0.88513671875"
+        }
+      ]
+    },
+    "source_files_sha256": {
+      "tables/method_summary.csv": "c9d684e326e5366deb13e0eb2fd5f4a0ed2f8e83a59ec3492a74bbb8a5005b69",
+      "tables/dialogue_wins.csv": "3d6d64fccf3f12d0a0661817b76411f4459311f64f54b9f434124164b353f913"
+    },
+    "archive_location": "outputs\\development\\m4_default_benchmark_20261123",
+    "shared_archive_url": null,
+    "status": "development_only_pending_review"
+  },
+  "m4_candidates_8_9_12_20261123": {
+    "manifest_sha256": "ec61419ddaf62c20e54d429ccdc0e27f07879e96804c445fe5db0b1686c4a9c7",
+    "config": {
+      "T": 300,
+      "n_dev_per_scenario": 3,
+      "n_demo_per_scenario": 6,
+      "n_formal_per_scenario": 30,
+      "dev_seed": 130000,
+      "demo_seed": 730000,
+      "formal_seed": null,
+      "algorithm_seeds": [
+        17,
+        37
+      ],
+      "p_recent_stable": 0.9,
+      "p_recent_abrupt_before": 0.9,
+      "p_recent_abrupt_after": 0.1,
+      "update_probability": 0.25,
+      "initial_conflict_fraction": 0.25,
+      "budgets": {
+        "recent_short": 128,
+        "recent_long": 512,
+        "tfidf": 256,
+        "resolved_tfidf": 256
+      },
+      "lambda": 0.5,
+      "cost_reference": 512,
+      "refit_every": 5,
+      "prior_precision": 1.0,
+      "bootstrap_seed": 2026,
+      "n_bootstrap": 2000
+    },
+    "seeds": {
+      "dialogue": [
+        130000,
+        130001,
+        130002,
+        130100,
+        130101,
+        130102
+      ],
+      "algorithm": [
+        17,
+        37
+      ]
+    },
+    "counts": {
+      "dialogues_per_variant": 6,
+      "outcomes_per_variant": 7200,
+      "replay_per_variant": 25200
+    },
+    "base_commit": "f3e82d3c43f384b86041c6133f15bab38f84a90a",
+    "tables": {
+      "paired_summary.csv": [
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "candidate_limit": "9",
+          "delta_y": "0.010000000000000009",
+          "delta_cost": "9.825555555555562",
+          "delta_utility": "0.00040473090277774276",
+          "delta_coverage": "0.0016666666666667052",
+          "delta_outdated": "-0.00944444444444445"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "candidate_limit": "12",
+          "delta_y": "0.03444444444444442",
+          "delta_cost": "27.128888888888895",
+          "delta_utility": "0.007951388888888874",
+          "delta_coverage": "0.018888888888888917",
+          "delta_outdated": "-0.03222222222222223"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "candidate_limit": "9",
+          "delta_y": "0.011111111111111072",
+          "delta_cost": "9.848888888888874",
+          "delta_utility": "0.001493055555555567",
+          "delta_coverage": "0.011111111111111072",
+          "delta_outdated": "-0.011111111111111108"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "candidate_limit": "12",
+          "delta_y": "0.03888888888888886",
+          "delta_cost": "26.981111111111108",
+          "delta_utility": "0.012540147569444438",
+          "delta_coverage": "0.03888888888888886",
+          "delta_outdated": "-0.03888888888888889"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "candidate_limit": "9",
+          "delta_y": "0.02111111111111108",
+          "delta_cost": "8.98777777777778",
+          "delta_utility": "0.012333984375000032",
+          "delta_coverage": "0.019444444444444486",
+          "delta_outdated": "-0.007777777777777779"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "candidate_limit": "12",
+          "delta_y": "-0.019444444444444448",
+          "delta_cost": "-0.7733333333333358",
+          "delta_utility": "-0.01868923611111108",
+          "delta_coverage": "-0.023333333333333355",
+          "delta_outdated": "-0.034444444444444444"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "candidate_limit": "9",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "candidate_limit": "12",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "candidate_limit": "9",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "candidate_limit": "12",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "candidate_limit": "9",
+          "delta_y": "0.014444444444444482",
+          "delta_cost": "17.48777777777777",
+          "delta_utility": "-0.00263346354166664",
+          "delta_coverage": "0.014444444444444482",
+          "delta_outdated": "-0.01444444444444444"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "candidate_limit": "12",
+          "delta_y": "0.04777777777777781",
+          "delta_cost": "54.068888888888885",
+          "delta_utility": "-0.005023871527777797",
+          "delta_coverage": "0.04777777777777781",
+          "delta_outdated": "-0.04777777777777779"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "candidate_limit": "9",
+          "delta_y": "0.013333333333333364",
+          "delta_cost": "20.817777777777774",
+          "delta_utility": "-0.0069965277777777795",
+          "delta_coverage": "0.015555555555555564",
+          "delta_outdated": "-0.00444444444444445"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "candidate_limit": "12",
+          "delta_y": "0.053333333333333344",
+          "delta_cost": "55.163333333333334",
+          "delta_utility": "-0.0005371093750000019",
+          "delta_coverage": "0.04888888888888889",
+          "delta_outdated": "-0.01777777777777778"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "candidate_limit": "9",
+          "delta_y": "0.003333333333333336",
+          "delta_cost": "0.7927777777777768",
+          "delta_utility": "0.002559136284722152",
+          "delta_coverage": "0.004444444444444362",
+          "delta_outdated": "-0.0044444444444444444"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "candidate_limit": "12",
+          "delta_y": "0.007222222222222204",
+          "delta_cost": "5.1166666666666645",
+          "delta_utility": "0.00222547743055553",
+          "delta_coverage": "0.010555555555555504",
+          "delta_outdated": "-0.007222222222222223"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "candidate_limit": "9",
+          "delta_y": "0.004444444444444436",
+          "delta_cost": "1.9555555555555582",
+          "delta_utility": "0.0025347222222222485",
+          "delta_coverage": "0.004444444444444436",
+          "delta_outdated": "-0.004444444444444445"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "candidate_limit": "12",
+          "delta_y": "0.007777777777777772",
+          "delta_cost": "6.121111111111115",
+          "delta_utility": "0.0018001302083333615",
+          "delta_coverage": "0.007777777777777772",
+          "delta_outdated": "-0.007777777777777779"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "candidate_limit": "9",
+          "delta_y": "0.006666666666666672",
+          "delta_cost": "3.8072222222222223",
+          "delta_utility": "0.0029486762152777235",
+          "delta_coverage": "0.0055555555555556095",
+          "delta_outdated": "-0.005"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "candidate_limit": "12",
+          "delta_y": "-0.0005555555555555683",
+          "delta_cost": "-6.229999999999994",
+          "delta_utility": "0.005528428819444413",
+          "delta_coverage": "-0.0016666666666666312",
+          "delta_outdated": "-0.007222222222222223"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "candidate_limit": "9",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "candidate_limit": "12",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "candidate_limit": "9",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "candidate_limit": "12",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "candidate_limit": "9",
+          "delta_y": "0.04666666666666667",
+          "delta_cost": "17.51",
+          "delta_utility": "0.029567057291666643",
+          "delta_coverage": "0.04666666666666667",
+          "delta_outdated": "-0.04666666666666667"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "candidate_limit": "12",
+          "delta_y": "0.08555555555555554",
+          "delta_cost": "50.86111111111111",
+          "delta_utility": "0.03588650173611104",
+          "delta_coverage": "0.08555555555555554",
+          "delta_outdated": "-0.08555555555555555"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "candidate_limit": "8",
+          "delta_y": "0.0",
+          "delta_cost": "0.0",
+          "delta_utility": "0.0",
+          "delta_coverage": "0.0",
+          "delta_outdated": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "candidate_limit": "9",
+          "delta_y": "0.012222222222222223",
+          "delta_cost": "21.871111111111116",
+          "delta_utility": "-0.009136284722222226",
+          "delta_coverage": "0.015555555555555553",
+          "delta_outdated": "0.0011111111111111113"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "candidate_limit": "12",
+          "delta_y": "0.029999999999999995",
+          "delta_cost": "57.49666666666667",
+          "delta_utility": "-0.026149088541666667",
+          "delta_coverage": "0.042222222222222223",
+          "delta_outdated": "0.0022222222222222222"
+        }
+      ],
+      "dialogue_wins.csv": [
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.002963867187499969",
+          "maximum": "0.00216308593749992"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "LaplaceCTS",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.0003157552083332682",
+          "maximum": "0.01961588541666659"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.009794921874999973",
+          "maximum": "0.010237630208333348"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "RuleRouter",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.012994791666666616",
+          "maximum": "0.032770182291666616"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.003286132812500009",
+          "maximum": "0.025402018229166656"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "TS",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "0",
+          "losses": "3",
+          "minimum": "-0.035805664062499964",
+          "maximum": "-0.002141927083333328"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_long",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "recent_short",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.017109374999999982",
+          "maximum": "0.006207682291666683"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "resolved_tfidf",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.028844401041666634",
+          "maximum": "0.013616536458333273"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "0",
+          "losses": "3",
+          "minimum": "-0.013356119791666676",
+          "maximum": "-0.0003678385416666652"
+        },
+        {
+          "scenario": "abrupt",
+          "method": "tfidf",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "1",
+          "losses": "2",
+          "minimum": "-0.013346354166666657",
+          "maximum": "0.012636718749999998"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.00492024739583341",
+          "maximum": "0.01054524739583329"
+        },
+        {
+          "scenario": "stable",
+          "method": "LaplaceCTS",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.005068359375000053",
+          "maximum": "0.007166341145833366"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "3",
+          "losses": "0",
+          "minimum": "0.0010221354166667362",
+          "maximum": "0.0050878906249999245"
+        },
+        {
+          "scenario": "stable",
+          "method": "RuleRouter",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "2",
+          "losses": "1",
+          "minimum": "-0.00012044270833333481",
+          "maximum": "0.004752604166666674"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "3",
+          "losses": "0",
+          "minimum": "0.0008789062499999778",
+          "maximum": "0.005595703124999907"
+        },
+        {
+          "scenario": "stable",
+          "method": "TS",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "3",
+          "losses": "0",
+          "minimum": "0.0012776692708332815",
+          "maximum": "0.008520507812500022"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_long",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "recent_short",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "3",
+          "losses": "0",
+          "minimum": "0.0031445312500000266",
+          "maximum": "0.049352213541666634"
+        },
+        {
+          "scenario": "stable",
+          "method": "resolved_tfidf",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "3",
+          "losses": "0",
+          "minimum": "0.007024739583333273",
+          "maximum": "0.07407877604166657"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "candidate_limit": "8",
+          "n": "3",
+          "wins": "0",
+          "losses": "0",
+          "minimum": "0.0",
+          "maximum": "0.0"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "candidate_limit": "9",
+          "n": "3",
+          "wins": "0",
+          "losses": "3",
+          "minimum": "-0.011595052083333335",
+          "maximum": "-0.004733072916666678"
+        },
+        {
+          "scenario": "stable",
+          "method": "tfidf",
+          "candidate_limit": "12",
+          "n": "3",
+          "wins": "0",
+          "losses": "3",
+          "minimum": "-0.03620117187499999",
+          "maximum": "-0.01941080729166668"
+        }
+      ]
+    },
+    "source_files_sha256": {
+      "paired_summary.csv": "e2a410f197182648e626a749a0fdc19427a71b3dd0b55ec38216b81307e8180e",
+      "dialogue_wins.csv": "eca1fa03ec1be6e33eb963672b255ec32e3cfa3fcbb7f2f21c91e44919ea67a2"
+    },
+    "archive_location": "outputs\\development\\m4_candidates_8_9_12_20261123",
+    "shared_archive_url": null,
+    "status": "development_only_pending_review"
+  }
+}

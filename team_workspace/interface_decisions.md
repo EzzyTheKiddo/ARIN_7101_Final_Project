@@ -6,3 +6,5 @@
 | 待填写 | | | | | | |
 
 初始定位：release-2只给任务与接口，成员自行实现、测试与解释。
+
+| 2026-11-23 | M4（实现草案） | 冻结需要绑定完整计划与证据 | freeze_protocol 的 cfg 改为含 config/baselines/evaluation_seeds/used_seeds 的计划对象；正式结果状态为 computed_pending_review | m4-*、scripts/run_m4_formal.py、docs/M4_FORMAL_WORKFLOW.md | 待 M3/M5 及全组确认 | 开发阶段；仅已看 demo，未运行正式数据 |
