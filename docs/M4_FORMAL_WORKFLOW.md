@@ -21,7 +21,19 @@ plan.json 是完整计划对象，字段包括：
 - evaluation_seeds：stable/abrupt各30个不重复整数。
 - used_seeds：全组披露的所有已用对话seed，除代码内已知禁用范围外也要登记。
 
-evidence.json 是证据名到路径的映射，路径相对此文件：audit_review、truth_checks、strategy_checks、method_checks、development_outcomes、approvals。需提供真实产物，不用占位空对象。
+evidence.json 是证据名到路径的映射，路径相对此文件：audit_review、truth_checks、strategy_checks、method_checks、development_outcomes、development_provenance、approvals。需提供这七项真实产物，不用占位空对象。
+
+development_provenance 是 JSON 对象，包含 config_sha256（canonical_hash(plan['config'])）、notebook_sha256（实际运行工作本的文件 SHA256）和 development_sha256（开发全臂 CSV 的文件 SHA256）。必须由生成该开发结果的配置和源码填写，不能给旧结果重新贴上当前哈希。
+
+truth_checks、strategy_checks、method_checks 使用同一信封格式：包含上述三个哈希、status="passed" 和 payload（原始检查结果）。程序检查 payload 内部结果，外层 passed 不足以通过。truth_checks 必须覆盖全部开发对话且每条300题、无错误；strategy_checks 必须包含通过的 fixture_checks、四项 development_checks 和匹配的 outcomes 行数；method_checks 必须包含 Beta 后验 [3,2]、反馈隔离检查、七种方法、匹配的算法种子/refit、开发对话来源及回放行数，且梯度范数≤1e-3、梯度/Hessian 有限差分误差≤1e-5、协方差最小特征值>0。字段名见 scripts/m4_protocol.py 的 validate_evidence。
+
+开发 CSV 必须覆盖每场景配置数量的对话、每条完整300题×4臂；程序复算 utility = y - lambda * cost / cost_reference 和固定基线，检查缺失值、重复记录及开发/正式种子分离。人工抽查的十题必须属于该开发表。
+
+旧版裸检查文件不能直接用于新版 freeze。应以最终配置和工作本重新生成或核验开发产物，保留原始来源后整理为上述格式，再取得团队批准；不得把失败或未运行检查包装为 passed。整个工作本哈希参与绑定，因此工作本变更后也需要重新核验。哈希绑定和内容检查不能证明文件声明真实，仍需人工审查来源。
+
+配置在冻结前检查完整字段、类型、有限值与取值范围。批准者 name/date 必须为非空字符串，date 必须能解析为 ISO 日期或日期时间，null 不再视作有效签署。
+
+计算失败时，failure.json 和失败登记独立尝试写入；任一写入失败会作为附注保留在原始异常上，两者都失败也不会替换计算异常。磁盘故障仍可能使持久化失败，需要人工调查 started 状态，已登记的种子继续禁止重用。
 
 approvals 文件需包含：plan_sha256（m4_protocol.canonical_hash(plan)）、code_sha256（notebook/runner/protocol/loader实际文件SHA256）、evidence_sha256（除approvals自身外所有证据SHA256）；members对象的M1–M5各有name/date/approved；另有m3_statistics_reviewed和all_used_seeds_disclosed两个真实确认值。程序不会生成签名。批准记录是人工声明，不是数字签名系统，仍需团队审查真实性。
 

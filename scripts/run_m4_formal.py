@@ -6,7 +6,7 @@ import platform
 import sys
 from pathlib import Path
 from importlib.metadata import version
-from m4_protocol import freeze, verify_frozen, register_event, digest, write_new
+from m4_protocol import freeze, verify_frozen, register_event, digest, write_new, record_failure
 from test_member_handoff import ROOT, load
 sys.path.insert(0, str(ROOT))
 
@@ -88,8 +88,7 @@ def main():
         register_event(registry,dict(run_id=args.run_id,status='computed_pending_review',manifest_sha256=digest(target/'manifest.json')))
         print(target)
     except BaseException as exc:
-        if target.exists():write_new(target/'failure.json',dict(type=type(exc).__name__,message=str(exc)))
-        register_event(registry,dict(run_id=args.run_id,status='failed',error=repr(exc),evaluation_seeds=seeds))
+        record_failure(target, registry, args.run_id, seeds, exc)
         raise
 
 

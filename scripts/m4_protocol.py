@@ -27,9 +27,104 @@ def write_new(path, value):
         os.fsync(f.fileno())
 
 
+ARMS = ('recent_short', 'recent_long', 'tfidf', 'resolved_tfidf')
+
+
+def validate_config(cfg):
+    import math
+    if not isinstance(cfg, dict):
+        raise ValueError('Configuration must be an object')
+    integers = {'T':300, 'n_formal_per_scenario':30, 'n_dev_per_scenario':None,
+                'n_demo_per_scenario':None, 'refit_every':None, 'n_bootstrap':None}
+    for name, fixed in integers.items():
+        value = cfg.get(name)
+        if type(value) is not int or value < 1 or (fixed is not None and value != fixed):
+            raise ValueError('Invalid/missing configuration: '+name)
+    for name in ['lambda','cost_reference','prior_precision','p_recent_stable',
+                 'p_recent_abrupt_before','p_recent_abrupt_after','update_probability','initial_conflict_fraction']:
+        value=cfg.get(name)
+        if type(value) not in (int,float) or not math.isfinite(value):
+            raise ValueError('Invalid/missing configuration: '+name)
+        if name.startswith('p_recent') or name in ['update_probability','initial_conflict_fraction']:
+            if not 0<=value<=1: raise ValueError('Probability out of range: '+name)
+        elif value < 0 or (name!='lambda' and value==0):
+            raise ValueError('Invalid positive parameter: '+name)
+    seeds=cfg.get('algorithm_seeds')
+    if not isinstance(seeds,list) or not seeds or any(type(v) is not int or v<0 for v in seeds) or len(set(seeds))!=len(seeds):
+        raise ValueError('Invalid algorithm seeds')
+    if type(cfg.get('bootstrap_seed')) is not int or cfg['bootstrap_seed']<0:
+        raise ValueError('Invalid bootstrap seed')
+    budgets=cfg.get('budgets',{})
+    if not isinstance(budgets,dict) or set(budgets)!=set(ARMS) or any(type(v) is not int or v<0 for v in budgets.values()):
+        raise ValueError('Invalid budgets')
+    for name in ['n_projects']:
+        if name in cfg and (type(cfg[name]) is not int or cfg[name]<2):raise ValueError(name)
+    if 'alias_probability' in cfg and (type(cfg['alias_probability']) not in (int,float) or not 0<=cfg['alias_probability']<=1):
+        raise ValueError('alias_probability')
+
+
+def validate_evidence(plan,evidence,code_files):
+    import numpy as np
+    import pandas as pd
+    cfg=plan['config']
+    required={'audit_review','truth_checks','strategy_checks','method_checks','development_outcomes','development_provenance','approvals'}
+    if set(evidence)!=required: raise ValueError('Evidence set differs from required schema')
+    provenance=json.loads(Path(evidence['development_provenance']).read_text(encoding='utf-8'))
+    bindings=dict(config_sha256=canonical_hash(cfg),notebook_sha256=digest(code_files['notebook']),
+                  development_sha256=digest(evidence['development_outcomes']))
+    if not isinstance(provenance,dict) or any(provenance.get(k)!=v for k,v in bindings.items()):
+        raise ValueError('Development data configuration/code binding mismatch; regenerate evidence')
+    data=pd.read_csv(evidence['development_outcomes'])
+    columns=['scenario','seed','t','arm','y','cost','utility','coverage','outdated']
+    if not set(columns).issubset(data) or data[columns].isna().any().any():raise ValueError('Incomplete development columns')
+    if not np.isfinite(data[['seed','t','y','cost','utility','coverage','outdated']].to_numpy(dtype=float)).all():raise ValueError('Nonfinite development data')
+    if not data[['y','coverage','outdated']].isin([0,1]).all().all() or (data.cost<0).any():raise ValueError('Invalid outcome values')
+    if not np.allclose(data.utility,data.y-cfg['lambda']*data.cost/cfg['cost_reference'],rtol=0,atol=1e-12):raise ValueError('Development utility/config mismatch')
+    if set(data.scenario)!={'stable','abrupt'} or data.duplicated(['seed','t','arm']).any():raise ValueError('Invalid development identities')
+    identities=data[['scenario','seed']].drop_duplicates()
+    if identities.seed.duplicated().any() or not (identities.groupby('scenario').size()==cfg['n_dev_per_scenario']).all():raise ValueError('Development dialogue count mismatch')
+    for _,g in data.groupby(['scenario','seed']):
+        if set(zip(g.t,g.arm))!={(t,a) for t in range(cfg['T']) for a in ARMS}:raise ValueError('Incomplete development grid')
+    if set(data.seed)&{s for group in plan['evaluation_seeds'].values() for s in group}:raise ValueError('Development/test overlap')
+    scores=data.groupby(['scenario','seed','arm']).utility.mean().groupby(['scenario','arm']).mean().unstack().reindex(columns=ARMS)
+    if scores.idxmax(axis=1).to_dict()!=plan['baselines']:raise ValueError('Baseline mismatch')
+    payloads={}
+    for name in ['truth_checks','strategy_checks','method_checks']:
+        envelope=json.loads(Path(evidence[name]).read_text(encoding='utf-8'))
+        if not isinstance(envelope,dict) or envelope.get('status')!='passed' or any(envelope.get(k)!=v for k,v in bindings.items()):raise ValueError('Failed/unbound evidence: '+name)
+        payloads[name]=envelope.get('payload')
+    truth=payloads['truth_checks']
+    expected=set(map(tuple,identities.to_numpy()))
+    if not isinstance(truth,list) or any(not isinstance(x,dict) for x in truth) or len(truth)!=len(expected) or {(x.get('scenario'),x.get('seed')) for x in truth}!=expected:
+        raise ValueError('Truth audit coverage mismatch')
+    if any(x.get('passed') is not True or x.get('question_count')!=cfg['T'] or x.get('errors') for x in truth):raise ValueError('Truth audit failed')
+    strategy=payloads['strategy_checks']
+    if not isinstance(strategy,dict):raise ValueError('Invalid strategy checks')
+    if not strategy.get('fixture_checks') or any(x.get('result')!='pass' for x in strategy['fixture_checks']):raise ValueError('Strategy fixtures failed')
+    checks=strategy.get('development_checks',{})
+    required_checks={'unique_keys_four_arms_and_matching_metadata','cost_count_and_utility_consistency','m1_independent_truth_audit','audit_coverage_and_reconstruction_match_outcomes'}
+    if not required_checks.issubset(checks) or any(v!='pass' for v in checks.values()):raise ValueError('Strategy development checks failed')
+    if strategy.get('row_counts',{}).get('outcomes')!=len(data):raise ValueError('Strategy coverage mismatch')
+    method=payloads['method_checks']
+    if not isinstance(method,dict):raise ValueError('Invalid method checks')
+    if method.get('beta_posterior')!=[3,2] or method.get('reset_and_unchosen_reward_flip')!='passed':raise ValueError('Method checks failed')
+    if method.get('algorithm_seeds')!=cfg['algorithm_seeds'] or method.get('refit_every_selected_feedbacks')!=cfg['refit_every']:raise ValueError('Method config mismatch')
+    if set(method.get('methods',[]))!=set(ARMS+('TS','LaplaceCTS','RuleRouter')):raise ValueError('Missing method checks')
+    for name,limit in [('map_gradient_norm',1e-3),('gradient_fd_max_error',1e-5),('hessian_fd_max_error',1e-5)]:
+        v=method.get(name)
+        if type(v) not in (int,float) or not np.isfinite(v) or not 0<=v<=limit:raise ValueError('Method numeric check failed: '+name)
+    v=method.get('covariance_min_eigenvalue')
+    if type(v) not in (int,float) or not np.isfinite(v) or v<=0:raise ValueError('Invalid covariance')
+    source=method.get('source',{})
+    if (source.get('scenario'),source.get('seed')) not in expected or method.get('replay_rows')!=cfg['T']*7*len(cfg['algorithm_seeds']):raise ValueError('Method coverage mismatch')
+    review=pd.read_csv(evidence['audit_review'])
+    if not set(zip(review.seed,review.t)).issubset(set(zip(data.seed,data.t))):raise ValueError('Audit questions outside development data')
+
+
 def validate_plan(plan, evidence, code_files):
     import pandas as pd
     cfg = plan['config']
+    validate_config(cfg)
     if set(code_files) != {'notebook','runner','protocol','loader'}:
         raise ValueError('All execution source snapshots required')
     if cfg['T'] != 300 or cfg['n_formal_per_scenario'] != 30:
@@ -68,14 +163,19 @@ def validate_plan(plan, evidence, code_files):
     members=approvals.get('members',{})
     for member in ['M1','M2','M3','M4','M5']:
         entry=members.get(member,{})
-        if entry.get('approved') is not True or not str(entry.get('name','')).strip() or not str(entry.get('date','')).strip():
+        if entry.get('approved') is not True or any(not isinstance(entry.get(k),str) or not entry[k].strip() for k in ['name','date']):
             raise ValueError('Missing real team approval: '+member)
+        try:
+            datetime.fromisoformat(entry['date'])
+        except ValueError as exc:
+            raise ValueError('Invalid approval date: '+member) from exc
     if approvals.get('m3_statistics_reviewed') is not True or approvals.get('all_used_seeds_disclosed') is not True:
         raise ValueError('Statistics review/seed disclosure not confirmed')
     # Require upstream evidence as actual files; signatures bind their content.
     for name in ['truth_checks','strategy_checks','method_checks','development_outcomes']:
         if name not in evidence:
             raise ValueError('Missing upstream evidence: '+name)
+    validate_evidence(plan,evidence,code_files)
     return approvals
 
 
@@ -143,3 +243,16 @@ def register_event(registry, event):
         os.replace(temporary,path)
     finally:
         lock.unlink()
+
+
+def record_failure(target, registry, run_id, seeds, original):
+    """Best-effort independent persistence; caller re-raises original exception."""
+    errors=[]
+    try:
+        if Path(target).exists():write_new(Path(target)/'failure.json',dict(type=type(original).__name__,message=str(original)))
+    except BaseException as exc:errors.append('failure report: '+repr(exc))
+    try:
+        register_event(registry,dict(run_id=run_id,status='failed',error=repr(original),evaluation_seeds=seeds))
+    except BaseException as exc:errors.append('registry: '+repr(exc))
+    for message in errors:original.add_note(message)
+    return errors
