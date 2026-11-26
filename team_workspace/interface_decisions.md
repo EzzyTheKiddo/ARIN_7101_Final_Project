@@ -6,3 +6,5 @@
 | 2026-11-23 | M2（用户确认） | 两检索臂共用前 8、9 或 12 个候选，正文预算各 256 | 保留 8。9 和 12 均修复 130100/99，但增加完整成本，原始检索平均效用下降，abrupt 最佳臂效用在 8 时最高。 | 主本 `f3e82d3` 的 `select_context`；沿用 `m2_development_20261119` 的全表、交接和已有回放。8/9/12 各复算 7,200 行，最佳固定臂映射一致。[对照与交付材料](../deliverables/M2_notes.md) | 待 M4 本人核对并填写姓名、日期和验收结果 | 已看六条开发对话；未运行正式实验 |
 
 初始定位：release-2只给任务与接口，成员自行实现、测试与解释。
+
+| 2026-11-23 | M4（实现草案） | 冻结需要绑定完整计划与证据 | freeze_protocol 的 cfg 改为含 config/baselines/evaluation_seeds/used_seeds 的计划对象；正式结果状态为 computed_pending_review | m4-*、scripts/run_m4_formal.py、docs/M4_FORMAL_WORKFLOW.md | 待 M3/M5 及全组确认 | 开发阶段；仅已看 demo，未运行正式数据 |
