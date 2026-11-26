@@ -62,7 +62,8 @@ def main():
         metadata=dict(mode='demo',run_id=args.run_id,fixture=args.quick,config=cfg,baselines=baselines,
             code_sha256=hashlib.sha256(notebook.read_bytes()).hexdigest(),
             base_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
-            source_has_uncommitted_changes=True,environment=env,
+            source_has_uncommitted_changes=bool(subprocess.check_output(
+                ['git', 'status', '--porcelain'], cwd=ROOT, text=True).strip()),environment=env,
             seeds=dict(development=[e['seed'] for e in dev],evaluation=[e['seed'] for e in episodes],algorithm=cfg['algorithm_seeds']),
             counts=dict(dialogues=len(episodes),outcomes=len(outcomes),replay=len(replay)),
             review_status='pending',created_at=datetime.now().astimezone().isoformat())
